@@ -1,0 +1,411 @@
+{
+  "metadata": {
+    "collection_time": "2025-08-22T16:46:04.038074",
+    "source_type": "web_scraping",
+    "industry": "power",
+    "region": "Beijing",
+    "data_count": 50
+  },
+  "data": [
+    {
+      "timestamp": "2025-08-22T16:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 104.67050327243847,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-22T15:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 82.74345963138379,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-22T14:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 97.23924909045687,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-22T13:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 85.17697784438145,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-22T12:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 77.09332596405324,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-22T11:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 64.07191417843876,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-22T10:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 113.06939838905538,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-22T09:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 98.3170723338779,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-22T08:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 82.29863655455232,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-22T07:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 120.79523885367338,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-22T06:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 102.53617750475506,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-22T05:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 90.9028348579865,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-22T04:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 114.24752100530937,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-22T03:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 62.79921269186676,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-22T02:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 125.50561552243511,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-22T01:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 114.9706478885027,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-22T00:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 131.76372534464863,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-21T23:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 133.56653384524475,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-21T22:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 122.65966924541385,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-21T21:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 113.11976057647071,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-21T20:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 146.28145554371972,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-21T19:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 120.21925112725528,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-21T18:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 73.59154128715963,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-21T17:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 85.10359782082949,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-21T16:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 132.8503697410169,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-21T15:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 92.77795349601189,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-21T14:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 96.33629293011708,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-21T13:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 100.33464687275648,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-21T12:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 133.89803842442564,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-21T11:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 107.68258472609303,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-21T10:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 74.81063048667343,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-21T09:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 128.460337291924,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-21T08:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 90.04948811558228,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-21T07:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 109.53529085487602,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-21T06:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 59.71226503657177,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-21T05:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 96.99445899831119,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-21T04:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 98.44780465241388,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-21T03:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 107.64433938021833,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-21T02:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 73.98123271789956,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-21T01:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 74.30086007362249,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-21T00:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 74.49068649973705,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-20T23:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 111.73169741977644,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-20T22:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 114.45537239923723,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-20T21:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 90.10467804145803,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-20T20:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 77.94366990963594,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-20T19:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 86.02831944470313,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-20T18:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 115.33825217720485,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-20T17:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 102.43990315138686,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-20T16:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 108.35795045358543,
+      "unit": "吨",
+      "industry": "power"
+    },
+    {
+      "timestamp": "2025-08-20T15:46:04.037078",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 88.72555743610744,
+      "unit": "吨",
+      "industry": "power"
+    }
+  ]
+}

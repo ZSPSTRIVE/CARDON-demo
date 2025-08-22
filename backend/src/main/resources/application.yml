@@ -1,0 +1,48 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/carbon_db?useSSL=false&useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        format_sql: true
+
+  security:
+    user:
+      name: admin
+      password: admin123
+
+# JWT配置
+jwt:
+  secret: change_me_super_secret_key_must_be_at_least_256_bits_long_for_security
+  expiration: 86400 # 24小时 (秒)
+
+# Python AI服务配置
+python:
+  service:
+    url: ${PYTHON_SERVICE_URL:http://localhost:8000}
+    timeout: 30000 # 30秒超时
+    retry:
+      max-attempts: 3
+      backoff:
+        initial-interval: 1000
+        multiplier: 2.0
+        max-interval: 10000
+
+# 日志配置
+logging:
+  level:
+    com.example.carbon: INFO
+    org.springframework.security: DEBUG
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n" 

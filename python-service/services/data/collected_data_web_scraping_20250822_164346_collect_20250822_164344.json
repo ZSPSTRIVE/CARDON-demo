@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "collection_time": "2025-08-22T16:43:46.481757",
+    "source_type": "web_scraping",
+    "industry": "power",
+    "region": "Beijing",
+    "data_count": 1
+  },
+  "data": [
+    {
+      "timestamp": "2025-08-20T15:43:46.480748",
+      "source_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+      "data_type": "web_scraping",
+      "value": 100.97908994844809,
+      "unit": "吨",
+      "industry": "power"
+    }
+  ]
+}

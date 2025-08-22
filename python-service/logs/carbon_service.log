@@ -1,0 +1,1500 @@
+2025-08-22 14:06:45.758 | INFO     | main:startup_event:48 - 碳排放AI分析服务启动中...
+2025-08-22 14:06:45.760 | INFO     | services.ai_predictor:initialize_models:47 - 开始初始化AI预测模型...
+2025-08-22 14:06:45.761 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: manufacturing_coal
+2025-08-22 14:06:45.762 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: manufacturing_oil
+2025-08-22 14:06:45.763 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: manufacturing_gas
+2025-08-22 14:06:45.764 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: manufacturing_electricity
+2025-08-22 14:06:45.765 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: manufacturing_renewable
+2025-08-22 14:06:45.766 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: manufacturing_nuclear
+2025-08-22 14:06:45.767 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: energy_coal
+2025-08-22 14:06:45.768 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: energy_oil
+2025-08-22 14:06:45.770 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: energy_gas
+2025-08-22 14:06:45.771 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: energy_electricity
+2025-08-22 14:06:45.772 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: energy_renewable
+2025-08-22 14:06:45.773 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: energy_nuclear
+2025-08-22 14:06:45.774 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: transportation_coal
+2025-08-22 14:06:45.776 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: transportation_oil
+2025-08-22 14:06:45.777 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: transportation_gas
+2025-08-22 14:06:45.778 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: transportation_electricity
+2025-08-22 14:06:45.779 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: transportation_renewable
+2025-08-22 14:06:45.781 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: transportation_nuclear
+2025-08-22 14:06:45.783 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: agriculture_coal
+2025-08-22 14:06:45.784 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: agriculture_oil
+2025-08-22 14:06:45.784 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: agriculture_gas
+2025-08-22 14:06:45.785 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: agriculture_electricity
+2025-08-22 14:06:45.786 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: agriculture_renewable
+2025-08-22 14:06:45.787 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: agriculture_nuclear
+2025-08-22 14:06:45.788 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: construction_coal
+2025-08-22 14:06:45.788 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: construction_oil
+2025-08-22 14:06:45.789 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: construction_gas
+2025-08-22 14:06:45.790 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: construction_electricity
+2025-08-22 14:06:45.791 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: construction_renewable
+2025-08-22 14:06:45.791 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: construction_nuclear
+2025-08-22 14:06:45.792 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: services_coal
+2025-08-22 14:06:45.793 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: services_oil
+2025-08-22 14:06:45.794 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: services_gas
+2025-08-22 14:06:45.795 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: services_electricity
+2025-08-22 14:06:45.795 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: services_renewable
+2025-08-22 14:06:45.796 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: services_nuclear
+2025-08-22 14:06:45.797 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: mining_coal
+2025-08-22 14:06:45.798 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: mining_oil
+2025-08-22 14:06:45.798 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: mining_gas
+2025-08-22 14:06:45.799 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: mining_electricity
+2025-08-22 14:06:45.800 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: mining_renewable
+2025-08-22 14:06:45.801 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: mining_nuclear
+2025-08-22 14:06:45.802 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: chemical_coal
+2025-08-22 14:06:45.802 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: chemical_oil
+2025-08-22 14:06:45.803 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: chemical_gas
+2025-08-22 14:06:45.804 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: chemical_electricity
+2025-08-22 14:06:45.805 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: chemical_renewable
+2025-08-22 14:06:45.806 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: chemical_nuclear
+2025-08-22 14:06:45.806 | INFO     | services.ai_predictor:initialize_models:79 - AI预测模型初始化完成
+2025-08-22 14:06:45.806 | INFO     | services.anomaly_detector:initialize_models:56 - 开始初始化异常检测模型...
+2025-08-22 14:06:45.807 | INFO     | services.anomaly_detector:initialize_models:90 - 创建新异常检测模型: manufacturing
+2025-08-22 14:06:45.807 | INFO     | services.anomaly_detector:initialize_models:90 - 创建新异常检测模型: energy
+2025-08-22 14:06:45.808 | INFO     | services.anomaly_detector:initialize_models:90 - 创建新异常检测模型: transportation
+2025-08-22 14:06:45.808 | INFO     | services.anomaly_detector:initialize_models:90 - 创建新异常检测模型: agriculture
+2025-08-22 14:06:45.810 | INFO     | services.anomaly_detector:initialize_models:90 - 创建新异常检测模型: construction
+2025-08-22 14:06:45.810 | INFO     | services.anomaly_detector:initialize_models:90 - 创建新异常检测模型: services
+2025-08-22 14:06:45.811 | INFO     | services.anomaly_detector:initialize_models:90 - 创建新异常检测模型: mining
+2025-08-22 14:06:45.812 | INFO     | services.anomaly_detector:initialize_models:90 - 创建新异常检测模型: chemical
+2025-08-22 14:06:45.812 | INFO     | services.anomaly_detector:initialize_models:93 - 异常检测模型初始化完成
+2025-08-22 14:06:45.812 | INFO     | services.carbon_cycle:initialize_models:27 - 开始初始化碳循环分析模型...
+2025-08-22 14:06:45.812 | INFO     | services.carbon_cycle:initialize_models:36 - 碳循环分析模型初始化完成
+2025-08-22 14:06:45.812 | INFO     | main:startup_event:60 - AI模型初始化完成
+2025-08-22 14:24:38.007 | INFO     | main:startup_event:48 - 碳排放AI分析服务启动中...
+2025-08-22 14:24:38.007 | INFO     | main:startup_event:48 - 碳排放AI分析服务启动中...
+2025-08-22 14:24:38.009 | INFO     | services.ai_predictor:initialize_models:47 - 开始初始化AI预测模型...
+2025-08-22 14:24:38.009 | INFO     | services.ai_predictor:initialize_models:47 - 开始初始化AI预测模型...
+2025-08-22 14:24:38.010 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: manufacturing_coal
+2025-08-22 14:24:38.010 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: manufacturing_coal
+2025-08-22 14:24:38.011 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: manufacturing_oil
+2025-08-22 14:24:38.011 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: manufacturing_oil
+2025-08-22 14:24:38.012 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: manufacturing_gas
+2025-08-22 14:24:38.012 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: manufacturing_gas
+2025-08-22 14:24:38.013 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: manufacturing_electricity
+2025-08-22 14:24:38.013 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: manufacturing_electricity
+2025-08-22 14:24:38.014 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: manufacturing_renewable
+2025-08-22 14:24:38.014 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: manufacturing_renewable
+2025-08-22 14:24:38.015 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: manufacturing_nuclear
+2025-08-22 14:24:38.015 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: manufacturing_nuclear
+2025-08-22 14:24:38.015 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: energy_coal
+2025-08-22 14:24:38.015 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: energy_coal
+2025-08-22 14:24:38.016 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: energy_oil
+2025-08-22 14:24:38.016 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: energy_oil
+2025-08-22 14:24:38.017 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: energy_gas
+2025-08-22 14:24:38.017 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: energy_gas
+2025-08-22 14:24:38.018 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: energy_electricity
+2025-08-22 14:24:38.018 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: energy_electricity
+2025-08-22 14:24:38.019 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: energy_renewable
+2025-08-22 14:24:38.019 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: energy_renewable
+2025-08-22 14:24:38.019 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: energy_nuclear
+2025-08-22 14:24:38.019 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: energy_nuclear
+2025-08-22 14:24:38.020 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: transportation_coal
+2025-08-22 14:24:38.020 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: transportation_coal
+2025-08-22 14:24:38.021 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: transportation_oil
+2025-08-22 14:24:38.021 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: transportation_oil
+2025-08-22 14:24:38.022 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: transportation_gas
+2025-08-22 14:24:38.022 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: transportation_gas
+2025-08-22 14:24:38.022 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: transportation_electricity
+2025-08-22 14:24:38.022 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: transportation_electricity
+2025-08-22 14:24:38.023 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: transportation_renewable
+2025-08-22 14:24:38.023 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: transportation_renewable
+2025-08-22 14:24:38.024 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: transportation_nuclear
+2025-08-22 14:24:38.024 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: transportation_nuclear
+2025-08-22 14:24:38.025 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: agriculture_coal
+2025-08-22 14:24:38.025 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: agriculture_coal
+2025-08-22 14:24:38.026 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: agriculture_oil
+2025-08-22 14:24:38.026 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: agriculture_oil
+2025-08-22 14:24:38.027 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: agriculture_gas
+2025-08-22 14:24:38.027 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: agriculture_gas
+2025-08-22 14:24:38.027 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: agriculture_electricity
+2025-08-22 14:24:38.027 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: agriculture_electricity
+2025-08-22 14:24:38.028 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: agriculture_renewable
+2025-08-22 14:24:38.028 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: agriculture_renewable
+2025-08-22 14:24:38.029 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: agriculture_nuclear
+2025-08-22 14:24:38.029 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: agriculture_nuclear
+2025-08-22 14:24:38.030 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: construction_coal
+2025-08-22 14:24:38.030 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: construction_coal
+2025-08-22 14:24:38.031 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: construction_oil
+2025-08-22 14:24:38.031 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: construction_oil
+2025-08-22 14:24:38.031 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: construction_gas
+2025-08-22 14:24:38.031 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: construction_gas
+2025-08-22 14:24:38.032 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: construction_electricity
+2025-08-22 14:24:38.032 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: construction_electricity
+2025-08-22 14:24:38.033 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: construction_renewable
+2025-08-22 14:24:38.033 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: construction_renewable
+2025-08-22 14:24:38.034 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: construction_nuclear
+2025-08-22 14:24:38.034 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: construction_nuclear
+2025-08-22 14:24:38.035 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: services_coal
+2025-08-22 14:24:38.035 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: services_coal
+2025-08-22 14:24:38.035 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: services_oil
+2025-08-22 14:24:38.035 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: services_oil
+2025-08-22 14:24:38.036 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: services_gas
+2025-08-22 14:24:38.036 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: services_gas
+2025-08-22 14:24:38.037 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: services_electricity
+2025-08-22 14:24:38.037 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: services_electricity
+2025-08-22 14:24:38.038 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: services_renewable
+2025-08-22 14:24:38.038 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: services_renewable
+2025-08-22 14:24:38.039 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: services_nuclear
+2025-08-22 14:24:38.039 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: services_nuclear
+2025-08-22 14:24:38.039 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: mining_coal
+2025-08-22 14:24:38.039 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: mining_coal
+2025-08-22 14:24:38.040 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: mining_oil
+2025-08-22 14:24:38.040 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: mining_oil
+2025-08-22 14:24:38.041 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: mining_gas
+2025-08-22 14:24:38.041 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: mining_gas
+2025-08-22 14:24:38.042 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: mining_electricity
+2025-08-22 14:24:38.042 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: mining_electricity
+2025-08-22 14:24:38.043 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: mining_renewable
+2025-08-22 14:24:38.043 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: mining_renewable
+2025-08-22 14:24:38.044 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: mining_nuclear
+2025-08-22 14:24:38.044 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: mining_nuclear
+2025-08-22 14:24:38.045 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: chemical_coal
+2025-08-22 14:24:38.045 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: chemical_coal
+2025-08-22 14:24:38.045 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: chemical_oil
+2025-08-22 14:24:38.045 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: chemical_oil
+2025-08-22 14:24:38.046 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: chemical_gas
+2025-08-22 14:24:38.046 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: chemical_gas
+2025-08-22 14:24:38.047 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: chemical_electricity
+2025-08-22 14:24:38.047 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: chemical_electricity
+2025-08-22 14:24:38.048 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: chemical_renewable
+2025-08-22 14:24:38.048 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: chemical_renewable
+2025-08-22 14:24:38.049 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: chemical_nuclear
+2025-08-22 14:24:38.049 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: chemical_nuclear
+2025-08-22 14:24:38.049 | INFO     | services.ai_predictor:initialize_models:79 - AI预测模型初始化完成
+2025-08-22 14:24:38.049 | INFO     | services.ai_predictor:initialize_models:79 - AI预测模型初始化完成
+2025-08-22 14:24:38.049 | INFO     | services.anomaly_detector:initialize_models:56 - 开始初始化异常检测模型...
+2025-08-22 14:24:38.049 | INFO     | services.anomaly_detector:initialize_models:56 - 开始初始化异常检测模型...
+2025-08-22 14:24:38.050 | INFO     | services.anomaly_detector:initialize_models:90 - 创建新异常检测模型: manufacturing
+2025-08-22 14:24:38.050 | INFO     | services.anomaly_detector:initialize_models:90 - 创建新异常检测模型: manufacturing
+2025-08-22 14:24:38.050 | INFO     | services.anomaly_detector:initialize_models:90 - 创建新异常检测模型: energy
+2025-08-22 14:24:38.050 | INFO     | services.anomaly_detector:initialize_models:90 - 创建新异常检测模型: energy
+2025-08-22 14:24:38.051 | INFO     | services.anomaly_detector:initialize_models:90 - 创建新异常检测模型: transportation
+2025-08-22 14:24:38.051 | INFO     | services.anomaly_detector:initialize_models:90 - 创建新异常检测模型: transportation
+2025-08-22 14:24:38.051 | INFO     | services.anomaly_detector:initialize_models:90 - 创建新异常检测模型: agriculture
+2025-08-22 14:24:38.051 | INFO     | services.anomaly_detector:initialize_models:90 - 创建新异常检测模型: agriculture
+2025-08-22 14:24:38.052 | INFO     | services.anomaly_detector:initialize_models:90 - 创建新异常检测模型: construction
+2025-08-22 14:24:38.052 | INFO     | services.anomaly_detector:initialize_models:90 - 创建新异常检测模型: construction
+2025-08-22 14:24:38.053 | INFO     | services.anomaly_detector:initialize_models:90 - 创建新异常检测模型: services
+2025-08-22 14:24:38.053 | INFO     | services.anomaly_detector:initialize_models:90 - 创建新异常检测模型: services
+2025-08-22 14:24:38.053 | INFO     | services.anomaly_detector:initialize_models:90 - 创建新异常检测模型: mining
+2025-08-22 14:24:38.053 | INFO     | services.anomaly_detector:initialize_models:90 - 创建新异常检测模型: mining
+2025-08-22 14:24:38.054 | INFO     | services.anomaly_detector:initialize_models:90 - 创建新异常检测模型: chemical
+2025-08-22 14:24:38.054 | INFO     | services.anomaly_detector:initialize_models:90 - 创建新异常检测模型: chemical
+2025-08-22 14:24:38.054 | INFO     | services.anomaly_detector:initialize_models:93 - 异常检测模型初始化完成
+2025-08-22 14:24:38.054 | INFO     | services.anomaly_detector:initialize_models:93 - 异常检测模型初始化完成
+2025-08-22 14:24:38.054 | INFO     | services.carbon_cycle:initialize_models:27 - 开始初始化碳循环分析模型...
+2025-08-22 14:24:38.054 | INFO     | services.carbon_cycle:initialize_models:27 - 开始初始化碳循环分析模型...
+2025-08-22 14:24:38.054 | INFO     | services.carbon_cycle:initialize_models:36 - 碳循环分析模型初始化完成
+2025-08-22 14:24:38.054 | INFO     | services.carbon_cycle:initialize_models:36 - 碳循环分析模型初始化完成
+2025-08-22 14:24:38.055 | INFO     | main:startup_event:60 - AI模型初始化完成
+2025-08-22 14:24:38.055 | INFO     | main:startup_event:60 - AI模型初始化完成
+2025-08-22 14:57:21.679 | INFO     | main:startup_event:48 - 碳排放AI分析服务启动中...
+2025-08-22 14:57:21.681 | INFO     | services.ai_predictor:initialize_models:47 - 开始初始化AI预测模型...
+2025-08-22 14:57:21.682 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: manufacturing_coal
+2025-08-22 14:57:21.683 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: manufacturing_oil
+2025-08-22 14:57:21.684 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: manufacturing_gas
+2025-08-22 14:57:21.685 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: manufacturing_electricity
+2025-08-22 14:57:21.686 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: manufacturing_renewable
+2025-08-22 14:57:21.687 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: manufacturing_nuclear
+2025-08-22 14:57:21.688 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: energy_coal
+2025-08-22 14:57:21.688 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: energy_oil
+2025-08-22 14:57:21.689 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: energy_gas
+2025-08-22 14:57:21.690 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: energy_electricity
+2025-08-22 14:57:21.691 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: energy_renewable
+2025-08-22 14:57:21.692 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: energy_nuclear
+2025-08-22 14:57:21.693 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: transportation_coal
+2025-08-22 14:57:21.693 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: transportation_oil
+2025-08-22 14:57:21.694 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: transportation_gas
+2025-08-22 14:57:21.695 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: transportation_electricity
+2025-08-22 14:57:21.696 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: transportation_renewable
+2025-08-22 14:57:21.697 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: transportation_nuclear
+2025-08-22 14:57:21.697 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: agriculture_coal
+2025-08-22 14:57:21.698 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: agriculture_oil
+2025-08-22 14:57:21.699 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: agriculture_gas
+2025-08-22 14:57:21.700 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: agriculture_electricity
+2025-08-22 14:57:21.701 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: agriculture_renewable
+2025-08-22 14:57:21.702 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: agriculture_nuclear
+2025-08-22 14:57:21.702 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: construction_coal
+2025-08-22 14:57:21.703 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: construction_oil
+2025-08-22 14:57:21.704 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: construction_gas
+2025-08-22 14:57:21.705 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: construction_electricity
+2025-08-22 14:57:21.706 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: construction_renewable
+2025-08-22 14:57:21.707 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: construction_nuclear
+2025-08-22 14:57:21.708 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: services_coal
+2025-08-22 14:57:21.709 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: services_oil
+2025-08-22 14:57:21.709 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: services_gas
+2025-08-22 14:57:21.710 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: services_electricity
+2025-08-22 14:57:21.711 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: services_renewable
+2025-08-22 14:57:21.712 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: services_nuclear
+2025-08-22 14:57:21.713 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: mining_coal
+2025-08-22 14:57:21.714 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: mining_oil
+2025-08-22 14:57:21.714 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: mining_gas
+2025-08-22 14:57:21.715 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: mining_electricity
+2025-08-22 14:57:21.716 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: mining_renewable
+2025-08-22 14:57:21.717 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: mining_nuclear
+2025-08-22 14:57:21.718 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: chemical_coal
+2025-08-22 14:57:21.719 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: chemical_oil
+2025-08-22 14:57:21.719 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: chemical_gas
+2025-08-22 14:57:21.720 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: chemical_electricity
+2025-08-22 14:57:21.721 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: chemical_renewable
+2025-08-22 14:57:21.722 | INFO     | services.ai_predictor:initialize_models:76 - 创建新模型: chemical_nuclear
+2025-08-22 14:57:21.722 | INFO     | services.ai_predictor:initialize_models:79 - AI预测模型初始化完成
+2025-08-22 14:57:21.722 | INFO     | services.anomaly_detector:initialize_models:56 - 开始初始化异常检测模型...
+2025-08-22 14:57:21.723 | INFO     | services.anomaly_detector:initialize_models:90 - 创建新异常检测模型: manufacturing
+2025-08-22 14:57:21.724 | INFO     | services.anomaly_detector:initialize_models:90 - 创建新异常检测模型: energy
+2025-08-22 14:57:21.724 | INFO     | services.anomaly_detector:initialize_models:90 - 创建新异常检测模型: transportation
+2025-08-22 14:57:21.725 | INFO     | services.anomaly_detector:initialize_models:90 - 创建新异常检测模型: agriculture
+2025-08-22 14:57:21.726 | INFO     | services.anomaly_detector:initialize_models:90 - 创建新异常检测模型: construction
+2025-08-22 14:57:21.726 | INFO     | services.anomaly_detector:initialize_models:90 - 创建新异常检测模型: services
+2025-08-22 14:57:21.727 | INFO     | services.anomaly_detector:initialize_models:90 - 创建新异常检测模型: mining
+2025-08-22 14:57:21.728 | INFO     | services.anomaly_detector:initialize_models:90 - 创建新异常检测模型: chemical
+2025-08-22 14:57:21.728 | INFO     | services.anomaly_detector:initialize_models:93 - 异常检测模型初始化完成
+2025-08-22 14:57:21.728 | INFO     | services.carbon_cycle:initialize_models:27 - 开始初始化碳循环分析模型...
+2025-08-22 14:57:21.728 | INFO     | services.carbon_cycle:initialize_models:36 - 碳循环分析模型初始化完成
+2025-08-22 14:57:21.728 | INFO     | main:startup_event:60 - AI模型初始化完成
+2025-08-22 16:53:35.943 | INFO     | main:startup_event:71 - 碳排放AI分析服务启动中...
+2025-08-22 16:53:35.943 | INFO     | main:startup_event:71 - 碳排放AI分析服务启动中...
+2025-08-22 16:53:35.945 | INFO     | services.ai_predictor:initialize_models:51 - 开始初始化AI预测模型...
+2025-08-22 16:53:35.945 | INFO     | services.ai_predictor:initialize_models:51 - 开始初始化AI预测模型...
+2025-08-22 16:53:35.955 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: manufacturing_coal
+2025-08-22 16:53:35.955 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: manufacturing_coal
+2025-08-22 16:53:35.956 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: manufacturing_oil
+2025-08-22 16:53:35.956 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: manufacturing_oil
+2025-08-22 16:53:35.957 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: manufacturing_gas
+2025-08-22 16:53:35.957 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: manufacturing_gas
+2025-08-22 16:53:35.958 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: manufacturing_electricity
+2025-08-22 16:53:35.958 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: manufacturing_electricity
+2025-08-22 16:53:35.959 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: manufacturing_renewable
+2025-08-22 16:53:35.959 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: manufacturing_renewable
+2025-08-22 16:53:35.960 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: manufacturing_nuclear
+2025-08-22 16:53:35.960 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: manufacturing_nuclear
+2025-08-22 16:53:35.960 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: energy_coal
+2025-08-22 16:53:35.960 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: energy_coal
+2025-08-22 16:53:35.961 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: energy_oil
+2025-08-22 16:53:35.961 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: energy_oil
+2025-08-22 16:53:35.962 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: energy_gas
+2025-08-22 16:53:35.962 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: energy_gas
+2025-08-22 16:53:35.963 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: energy_electricity
+2025-08-22 16:53:35.963 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: energy_electricity
+2025-08-22 16:53:35.964 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: energy_renewable
+2025-08-22 16:53:35.964 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: energy_renewable
+2025-08-22 16:53:35.964 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: energy_nuclear
+2025-08-22 16:53:35.964 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: energy_nuclear
+2025-08-22 16:53:35.965 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: transportation_coal
+2025-08-22 16:53:35.965 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: transportation_coal
+2025-08-22 16:53:35.966 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: transportation_oil
+2025-08-22 16:53:35.966 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: transportation_oil
+2025-08-22 16:53:35.967 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: transportation_gas
+2025-08-22 16:53:35.967 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: transportation_gas
+2025-08-22 16:53:35.967 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: transportation_electricity
+2025-08-22 16:53:35.967 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: transportation_electricity
+2025-08-22 16:53:35.968 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: transportation_renewable
+2025-08-22 16:53:35.968 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: transportation_renewable
+2025-08-22 16:53:35.969 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: transportation_nuclear
+2025-08-22 16:53:35.969 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: transportation_nuclear
+2025-08-22 16:53:35.970 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: agriculture_coal
+2025-08-22 16:53:35.970 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: agriculture_coal
+2025-08-22 16:53:35.971 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: agriculture_oil
+2025-08-22 16:53:35.971 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: agriculture_oil
+2025-08-22 16:53:35.971 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: agriculture_gas
+2025-08-22 16:53:35.971 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: agriculture_gas
+2025-08-22 16:53:35.972 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: agriculture_electricity
+2025-08-22 16:53:35.972 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: agriculture_electricity
+2025-08-22 16:53:35.973 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: agriculture_renewable
+2025-08-22 16:53:35.973 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: agriculture_renewable
+2025-08-22 16:53:35.974 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: agriculture_nuclear
+2025-08-22 16:53:35.974 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: agriculture_nuclear
+2025-08-22 16:53:35.975 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: construction_coal
+2025-08-22 16:53:35.975 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: construction_coal
+2025-08-22 16:53:35.975 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: construction_oil
+2025-08-22 16:53:35.975 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: construction_oil
+2025-08-22 16:53:35.976 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: construction_gas
+2025-08-22 16:53:35.976 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: construction_gas
+2025-08-22 16:53:35.977 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: construction_electricity
+2025-08-22 16:53:35.977 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: construction_electricity
+2025-08-22 16:53:35.978 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: construction_renewable
+2025-08-22 16:53:35.978 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: construction_renewable
+2025-08-22 16:53:35.978 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: construction_nuclear
+2025-08-22 16:53:35.978 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: construction_nuclear
+2025-08-22 16:53:35.979 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: services_coal
+2025-08-22 16:53:35.979 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: services_coal
+2025-08-22 16:53:35.980 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: services_oil
+2025-08-22 16:53:35.980 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: services_oil
+2025-08-22 16:53:35.981 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: services_gas
+2025-08-22 16:53:35.981 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: services_gas
+2025-08-22 16:53:35.982 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: services_electricity
+2025-08-22 16:53:35.982 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: services_electricity
+2025-08-22 16:53:35.982 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: services_renewable
+2025-08-22 16:53:35.982 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: services_renewable
+2025-08-22 16:53:35.983 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: services_nuclear
+2025-08-22 16:53:35.983 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: services_nuclear
+2025-08-22 16:53:35.984 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: mining_coal
+2025-08-22 16:53:35.984 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: mining_coal
+2025-08-22 16:53:35.985 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: mining_oil
+2025-08-22 16:53:35.985 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: mining_oil
+2025-08-22 16:53:35.985 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: mining_gas
+2025-08-22 16:53:35.985 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: mining_gas
+2025-08-22 16:53:35.986 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: mining_electricity
+2025-08-22 16:53:35.986 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: mining_electricity
+2025-08-22 16:53:35.987 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: mining_renewable
+2025-08-22 16:53:35.987 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: mining_renewable
+2025-08-22 16:53:35.988 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: mining_nuclear
+2025-08-22 16:53:35.988 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: mining_nuclear
+2025-08-22 16:53:35.989 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: chemical_coal
+2025-08-22 16:53:35.989 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: chemical_coal
+2025-08-22 16:53:35.989 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: chemical_oil
+2025-08-22 16:53:35.989 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: chemical_oil
+2025-08-22 16:53:35.990 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: chemical_gas
+2025-08-22 16:53:35.990 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: chemical_gas
+2025-08-22 16:53:35.991 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: chemical_electricity
+2025-08-22 16:53:35.991 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: chemical_electricity
+2025-08-22 16:53:35.992 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: chemical_renewable
+2025-08-22 16:53:35.992 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: chemical_renewable
+2025-08-22 16:53:35.993 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: chemical_nuclear
+2025-08-22 16:53:35.993 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: chemical_nuclear
+2025-08-22 16:53:35.993 | INFO     | services.ai_predictor:initialize_models:68 - AI预测模型初始化完成
+2025-08-22 16:53:35.993 | INFO     | services.ai_predictor:initialize_models:68 - AI预测模型初始化完成
+2025-08-22 16:53:35.993 | ERROR    | main:startup_event:84 - AI模型初始化失败: object NoneType can't be used in 'await' expression
+2025-08-22 16:53:35.993 | ERROR    | main:startup_event:84 - AI模型初始化失败: object NoneType can't be used in 'await' expression
+2025-08-22 16:56:21.124 | INFO     | main:lifespan:45 - 碳排放AI分析服务启动中...
+2025-08-22 16:56:21.124 | INFO     | main:lifespan:45 - 碳排放AI分析服务启动中...
+2025-08-22 16:56:21.125 | INFO     | services.ai_predictor:initialize_models:51 - 开始初始化AI预测模型...
+2025-08-22 16:56:21.125 | INFO     | services.ai_predictor:initialize_models:51 - 开始初始化AI预测模型...
+2025-08-22 16:56:21.126 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: manufacturing_coal
+2025-08-22 16:56:21.126 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: manufacturing_coal
+2025-08-22 16:56:21.127 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: manufacturing_oil
+2025-08-22 16:56:21.127 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: manufacturing_oil
+2025-08-22 16:56:21.128 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: manufacturing_gas
+2025-08-22 16:56:21.128 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: manufacturing_gas
+2025-08-22 16:56:21.129 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: manufacturing_electricity
+2025-08-22 16:56:21.129 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: manufacturing_electricity
+2025-08-22 16:56:21.130 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: manufacturing_renewable
+2025-08-22 16:56:21.130 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: manufacturing_renewable
+2025-08-22 16:56:21.131 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: manufacturing_nuclear
+2025-08-22 16:56:21.131 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: manufacturing_nuclear
+2025-08-22 16:56:21.131 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: energy_coal
+2025-08-22 16:56:21.131 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: energy_coal
+2025-08-22 16:56:21.132 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: energy_oil
+2025-08-22 16:56:21.132 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: energy_oil
+2025-08-22 16:56:21.133 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: energy_gas
+2025-08-22 16:56:21.133 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: energy_gas
+2025-08-22 16:56:21.134 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: energy_electricity
+2025-08-22 16:56:21.134 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: energy_electricity
+2025-08-22 16:56:21.134 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: energy_renewable
+2025-08-22 16:56:21.134 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: energy_renewable
+2025-08-22 16:56:21.135 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: energy_nuclear
+2025-08-22 16:56:21.135 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: energy_nuclear
+2025-08-22 16:56:21.136 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: transportation_coal
+2025-08-22 16:56:21.136 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: transportation_coal
+2025-08-22 16:56:21.137 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: transportation_oil
+2025-08-22 16:56:21.137 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: transportation_oil
+2025-08-22 16:56:21.138 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: transportation_gas
+2025-08-22 16:56:21.138 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: transportation_gas
+2025-08-22 16:56:21.138 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: transportation_electricity
+2025-08-22 16:56:21.138 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: transportation_electricity
+2025-08-22 16:56:21.139 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: transportation_renewable
+2025-08-22 16:56:21.139 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: transportation_renewable
+2025-08-22 16:56:21.140 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: transportation_nuclear
+2025-08-22 16:56:21.140 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: transportation_nuclear
+2025-08-22 16:56:21.141 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: agriculture_coal
+2025-08-22 16:56:21.141 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: agriculture_coal
+2025-08-22 16:56:21.142 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: agriculture_oil
+2025-08-22 16:56:21.142 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: agriculture_oil
+2025-08-22 16:56:21.142 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: agriculture_gas
+2025-08-22 16:56:21.142 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: agriculture_gas
+2025-08-22 16:56:21.143 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: agriculture_electricity
+2025-08-22 16:56:21.143 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: agriculture_electricity
+2025-08-22 16:56:21.144 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: agriculture_renewable
+2025-08-22 16:56:21.144 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: agriculture_renewable
+2025-08-22 16:56:21.145 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: agriculture_nuclear
+2025-08-22 16:56:21.145 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: agriculture_nuclear
+2025-08-22 16:56:21.146 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: construction_coal
+2025-08-22 16:56:21.146 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: construction_coal
+2025-08-22 16:56:21.146 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: construction_oil
+2025-08-22 16:56:21.146 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: construction_oil
+2025-08-22 16:56:21.147 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: construction_gas
+2025-08-22 16:56:21.147 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: construction_gas
+2025-08-22 16:56:21.148 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: construction_electricity
+2025-08-22 16:56:21.148 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: construction_electricity
+2025-08-22 16:56:21.149 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: construction_renewable
+2025-08-22 16:56:21.149 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: construction_renewable
+2025-08-22 16:56:21.149 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: construction_nuclear
+2025-08-22 16:56:21.149 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: construction_nuclear
+2025-08-22 16:56:21.150 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: services_coal
+2025-08-22 16:56:21.150 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: services_coal
+2025-08-22 16:56:21.151 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: services_oil
+2025-08-22 16:56:21.151 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: services_oil
+2025-08-22 16:56:21.152 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: services_gas
+2025-08-22 16:56:21.152 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: services_gas
+2025-08-22 16:56:21.153 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: services_electricity
+2025-08-22 16:56:21.153 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: services_electricity
+2025-08-22 16:56:21.153 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: services_renewable
+2025-08-22 16:56:21.153 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: services_renewable
+2025-08-22 16:56:21.154 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: services_nuclear
+2025-08-22 16:56:21.154 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: services_nuclear
+2025-08-22 16:56:21.155 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: mining_coal
+2025-08-22 16:56:21.155 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: mining_coal
+2025-08-22 16:56:21.156 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: mining_oil
+2025-08-22 16:56:21.156 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: mining_oil
+2025-08-22 16:56:21.157 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: mining_gas
+2025-08-22 16:56:21.157 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: mining_gas
+2025-08-22 16:56:21.157 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: mining_electricity
+2025-08-22 16:56:21.157 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: mining_electricity
+2025-08-22 16:56:21.158 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: mining_renewable
+2025-08-22 16:56:21.158 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: mining_renewable
+2025-08-22 16:56:21.159 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: mining_nuclear
+2025-08-22 16:56:21.159 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: mining_nuclear
+2025-08-22 16:56:21.160 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: chemical_coal
+2025-08-22 16:56:21.160 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: chemical_coal
+2025-08-22 16:56:21.160 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: chemical_oil
+2025-08-22 16:56:21.160 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: chemical_oil
+2025-08-22 16:56:21.161 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: chemical_gas
+2025-08-22 16:56:21.161 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: chemical_gas
+2025-08-22 16:56:21.162 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: chemical_electricity
+2025-08-22 16:56:21.162 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: chemical_electricity
+2025-08-22 16:56:21.163 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: chemical_renewable
+2025-08-22 16:56:21.163 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: chemical_renewable
+2025-08-22 16:56:21.163 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: chemical_nuclear
+2025-08-22 16:56:21.163 | INFO     | services.ai_predictor:initialize_models:65 - 创建新模型: chemical_nuclear
+2025-08-22 16:56:21.164 | INFO     | services.ai_predictor:initialize_models:68 - AI预测模型初始化完成
+2025-08-22 16:56:21.164 | INFO     | services.ai_predictor:initialize_models:68 - AI预测模型初始化完成
+2025-08-22 16:56:21.166 | INFO     | main:lifespan:51 - AI模型初始化完成
+2025-08-22 16:56:21.166 | INFO     | main:lifespan:51 - AI模型初始化完成
+2025-08-22 17:13:07.799 | INFO     | main:lifespan:55 - 应用关闭，Lifespan清理完成
+2025-08-22 17:13:07.799 | INFO     | main:lifespan:55 - 应用关闭，Lifespan清理完成
+2025-08-22 18:27:28.584 | INFO     | main:lifespan:45 - 碳排放AI分析服务启动中...
+2025-08-22 18:27:28.585 | INFO     | services.ai_predictor:initialize_models:51 - 开始初始化AI预测模型...
+2025-08-22 18:27:28.586 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_coal
+2025-08-22 18:27:28.587 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_oil
+2025-08-22 18:27:28.588 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_gas
+2025-08-22 18:27:28.589 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_electricity
+2025-08-22 18:27:28.590 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_renewable
+2025-08-22 18:27:28.591 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_nuclear
+2025-08-22 18:27:28.591 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_coal
+2025-08-22 18:27:28.592 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_oil
+2025-08-22 18:27:28.593 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_gas
+2025-08-22 18:27:28.594 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_electricity
+2025-08-22 18:27:28.595 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_renewable
+2025-08-22 18:27:28.596 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_nuclear
+2025-08-22 18:27:28.597 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_coal
+2025-08-22 18:27:28.598 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_oil
+2025-08-22 18:27:28.599 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_gas
+2025-08-22 18:27:28.599 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_electricity
+2025-08-22 18:27:28.600 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_renewable
+2025-08-22 18:27:28.601 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_nuclear
+2025-08-22 18:27:28.602 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_coal
+2025-08-22 18:27:28.603 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_oil
+2025-08-22 18:27:28.604 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_gas
+2025-08-22 18:27:28.605 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_electricity
+2025-08-22 18:27:28.605 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_renewable
+2025-08-22 18:27:28.606 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_nuclear
+2025-08-22 18:27:28.607 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_coal
+2025-08-22 18:27:28.608 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_oil
+2025-08-22 18:27:28.609 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_gas
+2025-08-22 18:27:28.610 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_electricity
+2025-08-22 18:27:28.610 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_renewable
+2025-08-22 18:27:28.611 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_nuclear
+2025-08-22 18:27:28.612 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_coal
+2025-08-22 18:27:28.614 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_oil
+2025-08-22 18:27:28.614 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_gas
+2025-08-22 18:27:28.615 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_electricity
+2025-08-22 18:27:28.616 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_renewable
+2025-08-22 18:27:28.617 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_nuclear
+2025-08-22 18:27:28.618 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_coal
+2025-08-22 18:27:28.619 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_oil
+2025-08-22 18:27:28.619 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_gas
+2025-08-22 18:27:28.620 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_electricity
+2025-08-22 18:27:28.621 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_renewable
+2025-08-22 18:27:28.622 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_nuclear
+2025-08-22 18:27:28.623 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_coal
+2025-08-22 18:27:28.623 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_oil
+2025-08-22 18:27:28.624 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_gas
+2025-08-22 18:27:28.625 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_electricity
+2025-08-22 18:27:28.626 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_renewable
+2025-08-22 18:27:28.627 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_nuclear
+2025-08-22 18:27:28.627 | INFO     | services.ai_predictor:initialize_models:83 - AI预测模型初始化完成
+2025-08-22 18:27:28.627 | INFO     | services.anomaly_detector:initialize_models:60 - 开始初始化异常检测模型...
+2025-08-22 18:27:28.628 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: manufacturing
+2025-08-22 18:27:28.629 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: energy
+2025-08-22 18:27:28.630 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: transportation
+2025-08-22 18:27:28.630 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: agriculture
+2025-08-22 18:27:28.631 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: construction
+2025-08-22 18:27:28.632 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: services
+2025-08-22 18:27:28.632 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: mining
+2025-08-22 18:27:28.633 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: chemical
+2025-08-22 18:27:28.633 | INFO     | services.anomaly_detector:initialize_models:97 - 异常检测模型初始化完成
+2025-08-22 18:27:28.633 | INFO     | services.carbon_cycle:initialize_models:33 - 开始初始化碳循环分析模型...
+2025-08-22 18:27:28.633 | INFO     | services.carbon_cycle:initialize_models:42 - 碳循环分析模型初始化完成
+2025-08-22 18:27:28.633 | INFO     | main:lifespan:51 - AI模型初始化完成
+2025-08-22 18:46:22.946 | INFO     | main:detect_anomalies:144 - 开始异常检测: energy
+2025-08-22 18:46:23.059 | ERROR    | services.anomaly_detector:detect_anomalies:142 - 异常检测失败: 'int' object has no attribute 'isoformat'
+2025-08-22 18:46:23.060 | ERROR    | main:detect_anomalies:158 - 异常检测失败: 'int' object has no attribute 'isoformat'
+2025-08-22 18:46:24.289 | INFO     | main:detect_anomalies:144 - 开始异常检测: energy
+2025-08-22 18:46:24.375 | ERROR    | services.anomaly_detector:detect_anomalies:142 - 异常检测失败: 'int' object has no attribute 'isoformat'
+2025-08-22 18:46:24.376 | ERROR    | main:detect_anomalies:158 - 异常检测失败: 'int' object has no attribute 'isoformat'
+2025-08-22 18:46:24.847 | INFO     | main:detect_anomalies:144 - 开始异常检测: energy
+2025-08-22 18:46:24.932 | ERROR    | services.anomaly_detector:detect_anomalies:142 - 异常检测失败: 'int' object has no attribute 'isoformat'
+2025-08-22 18:46:24.932 | ERROR    | main:detect_anomalies:158 - 异常检测失败: 'int' object has no attribute 'isoformat'
+2025-08-22 18:46:25.048 | INFO     | main:detect_anomalies:144 - 开始异常检测: energy
+2025-08-22 18:46:25.146 | ERROR    | services.anomaly_detector:detect_anomalies:142 - 异常检测失败: 'int' object has no attribute 'isoformat'
+2025-08-22 18:46:25.147 | ERROR    | main:detect_anomalies:158 - 异常检测失败: 'int' object has no attribute 'isoformat'
+2025-08-22 18:46:25.250 | INFO     | main:detect_anomalies:144 - 开始异常检测: energy
+2025-08-22 18:46:25.355 | ERROR    | services.anomaly_detector:detect_anomalies:142 - 异常检测失败: 'int' object has no attribute 'isoformat'
+2025-08-22 18:46:25.356 | ERROR    | main:detect_anomalies:158 - 异常检测失败: 'int' object has no attribute 'isoformat'
+2025-08-22 18:46:25.451 | INFO     | main:detect_anomalies:144 - 开始异常检测: energy
+2025-08-22 18:46:25.549 | ERROR    | services.anomaly_detector:detect_anomalies:142 - 异常检测失败: 'int' object has no attribute 'isoformat'
+2025-08-22 18:46:25.549 | ERROR    | main:detect_anomalies:158 - 异常检测失败: 'int' object has no attribute 'isoformat'
+2025-08-22 18:49:08.262 | INFO     | main:lifespan:55 - 应用关闭，Lifespan清理完成
+2025-08-22 18:49:13.580 | INFO     | main:lifespan:45 - 碳排放AI分析服务启动中...
+2025-08-22 18:49:13.581 | INFO     | services.ai_predictor:initialize_models:51 - 开始初始化AI预测模型...
+2025-08-22 18:49:13.582 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_coal
+2025-08-22 18:49:13.583 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_oil
+2025-08-22 18:49:13.584 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_gas
+2025-08-22 18:49:13.585 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_electricity
+2025-08-22 18:49:13.586 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_renewable
+2025-08-22 18:49:13.587 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_nuclear
+2025-08-22 18:49:13.588 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_coal
+2025-08-22 18:49:13.589 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_oil
+2025-08-22 18:49:13.590 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_gas
+2025-08-22 18:49:13.591 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_electricity
+2025-08-22 18:49:13.592 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_renewable
+2025-08-22 18:49:13.592 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_nuclear
+2025-08-22 18:49:13.593 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_coal
+2025-08-22 18:49:13.594 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_oil
+2025-08-22 18:49:13.595 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_gas
+2025-08-22 18:49:13.596 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_electricity
+2025-08-22 18:49:13.597 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_renewable
+2025-08-22 18:49:13.598 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_nuclear
+2025-08-22 18:49:13.599 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_coal
+2025-08-22 18:49:13.600 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_oil
+2025-08-22 18:49:13.601 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_gas
+2025-08-22 18:49:13.602 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_electricity
+2025-08-22 18:49:13.603 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_renewable
+2025-08-22 18:49:13.604 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_nuclear
+2025-08-22 18:49:13.604 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_coal
+2025-08-22 18:49:13.605 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_oil
+2025-08-22 18:49:13.606 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_gas
+2025-08-22 18:49:13.607 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_electricity
+2025-08-22 18:49:13.608 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_renewable
+2025-08-22 18:49:13.609 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_nuclear
+2025-08-22 18:49:13.610 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_coal
+2025-08-22 18:49:13.611 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_oil
+2025-08-22 18:49:13.611 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_gas
+2025-08-22 18:49:13.612 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_electricity
+2025-08-22 18:49:13.613 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_renewable
+2025-08-22 18:49:13.614 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_nuclear
+2025-08-22 18:49:13.615 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_coal
+2025-08-22 18:49:13.616 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_oil
+2025-08-22 18:49:13.616 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_gas
+2025-08-22 18:49:13.617 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_electricity
+2025-08-22 18:49:13.618 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_renewable
+2025-08-22 18:49:13.619 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_nuclear
+2025-08-22 18:49:13.621 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_coal
+2025-08-22 18:49:13.621 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_oil
+2025-08-22 18:49:13.622 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_gas
+2025-08-22 18:49:13.623 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_electricity
+2025-08-22 18:49:13.624 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_renewable
+2025-08-22 18:49:13.624 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_nuclear
+2025-08-22 18:49:13.625 | INFO     | services.ai_predictor:initialize_models:83 - AI预测模型初始化完成
+2025-08-22 18:49:13.625 | INFO     | services.anomaly_detector:initialize_models:60 - 开始初始化异常检测模型...
+2025-08-22 18:49:13.626 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: manufacturing
+2025-08-22 18:49:13.626 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: energy
+2025-08-22 18:49:13.627 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: transportation
+2025-08-22 18:49:13.628 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: agriculture
+2025-08-22 18:49:13.628 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: construction
+2025-08-22 18:49:13.629 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: services
+2025-08-22 18:49:13.630 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: mining
+2025-08-22 18:49:13.630 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: chemical
+2025-08-22 18:49:13.631 | INFO     | services.anomaly_detector:initialize_models:97 - 异常检测模型初始化完成
+2025-08-22 18:49:13.631 | INFO     | services.carbon_cycle:initialize_models:33 - 开始初始化碳循环分析模型...
+2025-08-22 18:49:13.631 | INFO     | services.carbon_cycle:initialize_models:42 - 碳循环分析模型初始化完成
+2025-08-22 18:49:13.631 | INFO     | main:lifespan:51 - AI模型初始化完成
+2025-08-22 18:49:24.544 | INFO     | main:lifespan:55 - 应用关闭，Lifespan清理完成
+2025-08-22 18:49:29.726 | INFO     | main:lifespan:45 - 碳排放AI分析服务启动中...
+2025-08-22 18:49:29.727 | INFO     | services.ai_predictor:initialize_models:51 - 开始初始化AI预测模型...
+2025-08-22 18:49:29.728 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_coal
+2025-08-22 18:49:29.729 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_oil
+2025-08-22 18:49:29.730 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_gas
+2025-08-22 18:49:29.731 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_electricity
+2025-08-22 18:49:29.732 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_renewable
+2025-08-22 18:49:29.733 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_nuclear
+2025-08-22 18:49:29.734 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_coal
+2025-08-22 18:49:29.734 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_oil
+2025-08-22 18:49:29.735 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_gas
+2025-08-22 18:49:29.736 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_electricity
+2025-08-22 18:49:29.737 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_renewable
+2025-08-22 18:49:29.738 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_nuclear
+2025-08-22 18:49:29.739 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_coal
+2025-08-22 18:49:29.740 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_oil
+2025-08-22 18:49:29.740 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_gas
+2025-08-22 18:49:29.741 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_electricity
+2025-08-22 18:49:29.742 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_renewable
+2025-08-22 18:49:29.743 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_nuclear
+2025-08-22 18:49:29.744 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_coal
+2025-08-22 18:49:29.745 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_oil
+2025-08-22 18:49:29.745 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_gas
+2025-08-22 18:49:29.746 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_electricity
+2025-08-22 18:49:29.747 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_renewable
+2025-08-22 18:49:29.748 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_nuclear
+2025-08-22 18:49:29.749 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_coal
+2025-08-22 18:49:29.749 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_oil
+2025-08-22 18:49:29.750 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_gas
+2025-08-22 18:49:29.751 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_electricity
+2025-08-22 18:49:29.752 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_renewable
+2025-08-22 18:49:29.753 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_nuclear
+2025-08-22 18:49:29.754 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_coal
+2025-08-22 18:49:29.754 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_oil
+2025-08-22 18:49:29.755 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_gas
+2025-08-22 18:49:29.756 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_electricity
+2025-08-22 18:49:29.757 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_renewable
+2025-08-22 18:49:29.758 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_nuclear
+2025-08-22 18:49:29.759 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_coal
+2025-08-22 18:49:29.760 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_oil
+2025-08-22 18:49:29.760 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_gas
+2025-08-22 18:49:29.761 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_electricity
+2025-08-22 18:49:29.762 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_renewable
+2025-08-22 18:49:29.763 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_nuclear
+2025-08-22 18:49:29.764 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_coal
+2025-08-22 18:49:29.765 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_oil
+2025-08-22 18:49:29.765 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_gas
+2025-08-22 18:49:29.766 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_electricity
+2025-08-22 18:49:29.767 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_renewable
+2025-08-22 18:49:29.768 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_nuclear
+2025-08-22 18:49:29.768 | INFO     | services.ai_predictor:initialize_models:83 - AI预测模型初始化完成
+2025-08-22 18:49:29.768 | INFO     | services.anomaly_detector:initialize_models:60 - 开始初始化异常检测模型...
+2025-08-22 18:49:29.769 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: manufacturing
+2025-08-22 18:49:29.770 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: energy
+2025-08-22 18:49:29.770 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: transportation
+2025-08-22 18:49:29.771 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: agriculture
+2025-08-22 18:49:29.772 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: construction
+2025-08-22 18:49:29.773 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: services
+2025-08-22 18:49:29.773 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: mining
+2025-08-22 18:49:29.774 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: chemical
+2025-08-22 18:49:29.775 | INFO     | services.anomaly_detector:initialize_models:97 - 异常检测模型初始化完成
+2025-08-22 18:49:29.775 | INFO     | services.carbon_cycle:initialize_models:33 - 开始初始化碳循环分析模型...
+2025-08-22 18:49:29.775 | INFO     | services.carbon_cycle:initialize_models:42 - 碳循环分析模型初始化完成
+2025-08-22 18:49:29.776 | INFO     | main:lifespan:51 - AI模型初始化完成
+2025-08-22 18:49:42.529 | INFO     | main:lifespan:55 - 应用关闭，Lifespan清理完成
+2025-08-22 18:49:47.973 | INFO     | main:lifespan:45 - 碳排放AI分析服务启动中...
+2025-08-22 18:49:47.974 | INFO     | services.ai_predictor:initialize_models:51 - 开始初始化AI预测模型...
+2025-08-22 18:49:47.976 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_coal
+2025-08-22 18:49:47.977 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_oil
+2025-08-22 18:49:47.978 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_gas
+2025-08-22 18:49:47.979 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_electricity
+2025-08-22 18:49:47.980 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_renewable
+2025-08-22 18:49:47.980 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_nuclear
+2025-08-22 18:49:47.981 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_coal
+2025-08-22 18:49:47.982 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_oil
+2025-08-22 18:49:47.983 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_gas
+2025-08-22 18:49:47.984 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_electricity
+2025-08-22 18:49:47.985 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_renewable
+2025-08-22 18:49:47.985 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_nuclear
+2025-08-22 18:49:47.986 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_coal
+2025-08-22 18:49:47.987 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_oil
+2025-08-22 18:49:47.988 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_gas
+2025-08-22 18:49:47.989 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_electricity
+2025-08-22 18:49:47.990 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_renewable
+2025-08-22 18:49:47.991 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_nuclear
+2025-08-22 18:49:47.992 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_coal
+2025-08-22 18:49:47.993 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_oil
+2025-08-22 18:49:47.994 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_gas
+2025-08-22 18:49:47.995 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_electricity
+2025-08-22 18:49:47.996 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_renewable
+2025-08-22 18:49:47.997 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_nuclear
+2025-08-22 18:49:47.998 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_coal
+2025-08-22 18:49:47.999 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_oil
+2025-08-22 18:49:48.000 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_gas
+2025-08-22 18:49:48.001 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_electricity
+2025-08-22 18:49:48.001 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_renewable
+2025-08-22 18:49:48.002 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_nuclear
+2025-08-22 18:49:48.003 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_coal
+2025-08-22 18:49:48.004 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_oil
+2025-08-22 18:49:48.005 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_gas
+2025-08-22 18:49:48.006 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_electricity
+2025-08-22 18:49:48.007 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_renewable
+2025-08-22 18:49:48.008 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_nuclear
+2025-08-22 18:49:48.009 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_coal
+2025-08-22 18:49:48.010 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_oil
+2025-08-22 18:49:48.011 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_gas
+2025-08-22 18:49:48.012 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_electricity
+2025-08-22 18:49:48.013 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_renewable
+2025-08-22 18:49:48.014 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_nuclear
+2025-08-22 18:49:48.015 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_coal
+2025-08-22 18:49:48.016 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_oil
+2025-08-22 18:49:48.017 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_gas
+2025-08-22 18:49:48.018 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_electricity
+2025-08-22 18:49:48.018 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_renewable
+2025-08-22 18:49:48.019 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_nuclear
+2025-08-22 18:49:48.020 | INFO     | services.ai_predictor:initialize_models:83 - AI预测模型初始化完成
+2025-08-22 18:49:48.020 | INFO     | services.anomaly_detector:initialize_models:60 - 开始初始化异常检测模型...
+2025-08-22 18:49:48.021 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: manufacturing
+2025-08-22 18:49:48.022 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: energy
+2025-08-22 18:49:48.022 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: transportation
+2025-08-22 18:49:48.023 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: agriculture
+2025-08-22 18:49:48.023 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: construction
+2025-08-22 18:49:48.025 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: services
+2025-08-22 18:49:48.025 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: mining
+2025-08-22 18:49:48.026 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: chemical
+2025-08-22 18:49:48.026 | INFO     | services.anomaly_detector:initialize_models:97 - 异常检测模型初始化完成
+2025-08-22 18:49:48.027 | INFO     | services.carbon_cycle:initialize_models:33 - 开始初始化碳循环分析模型...
+2025-08-22 18:49:48.027 | INFO     | services.carbon_cycle:initialize_models:42 - 碳循环分析模型初始化完成
+2025-08-22 18:49:48.027 | INFO     | main:lifespan:51 - AI模型初始化完成
+2025-08-22 18:54:59.780 | INFO     | main:lifespan:45 - 碳排放AI分析服务启动中...
+2025-08-22 18:54:59.781 | INFO     | services.ai_predictor:initialize_models:51 - 开始初始化AI预测模型...
+2025-08-22 18:54:59.782 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_coal
+2025-08-22 18:54:59.783 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_oil
+2025-08-22 18:54:59.784 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_gas
+2025-08-22 18:54:59.785 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_electricity
+2025-08-22 18:54:59.785 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_renewable
+2025-08-22 18:54:59.786 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_nuclear
+2025-08-22 18:54:59.787 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_coal
+2025-08-22 18:54:59.788 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_oil
+2025-08-22 18:54:59.789 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_gas
+2025-08-22 18:54:59.790 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_electricity
+2025-08-22 18:54:59.790 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_renewable
+2025-08-22 18:54:59.791 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_nuclear
+2025-08-22 18:54:59.792 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_coal
+2025-08-22 18:54:59.793 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_oil
+2025-08-22 18:54:59.794 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_gas
+2025-08-22 18:54:59.795 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_electricity
+2025-08-22 18:54:59.796 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_renewable
+2025-08-22 18:54:59.797 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_nuclear
+2025-08-22 18:54:59.798 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_coal
+2025-08-22 18:54:59.798 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_oil
+2025-08-22 18:54:59.799 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_gas
+2025-08-22 18:54:59.800 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_electricity
+2025-08-22 18:54:59.801 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_renewable
+2025-08-22 18:54:59.802 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_nuclear
+2025-08-22 18:54:59.803 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_coal
+2025-08-22 18:54:59.803 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_oil
+2025-08-22 18:54:59.804 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_gas
+2025-08-22 18:54:59.805 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_electricity
+2025-08-22 18:54:59.806 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_renewable
+2025-08-22 18:54:59.807 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_nuclear
+2025-08-22 18:54:59.807 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_coal
+2025-08-22 18:54:59.808 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_oil
+2025-08-22 18:54:59.809 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_gas
+2025-08-22 18:54:59.810 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_electricity
+2025-08-22 18:54:59.811 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_renewable
+2025-08-22 18:54:59.812 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_nuclear
+2025-08-22 18:54:59.813 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_coal
+2025-08-22 18:54:59.813 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_oil
+2025-08-22 18:54:59.814 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_gas
+2025-08-22 18:54:59.815 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_electricity
+2025-08-22 18:54:59.816 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_renewable
+2025-08-22 18:54:59.817 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_nuclear
+2025-08-22 18:54:59.817 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_coal
+2025-08-22 18:54:59.818 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_oil
+2025-08-22 18:54:59.819 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_gas
+2025-08-22 18:54:59.820 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_electricity
+2025-08-22 18:54:59.821 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_renewable
+2025-08-22 18:54:59.822 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_nuclear
+2025-08-22 18:54:59.822 | INFO     | services.ai_predictor:initialize_models:83 - AI预测模型初始化完成
+2025-08-22 18:54:59.822 | INFO     | services.anomaly_detector:initialize_models:60 - 开始初始化异常检测模型...
+2025-08-22 18:54:59.823 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: manufacturing
+2025-08-22 18:54:59.827 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: energy
+2025-08-22 18:54:59.828 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: transportation
+2025-08-22 18:54:59.828 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: agriculture
+2025-08-22 18:54:59.829 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: construction
+2025-08-22 18:54:59.830 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: services
+2025-08-22 18:54:59.830 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: mining
+2025-08-22 18:54:59.831 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: chemical
+2025-08-22 18:54:59.831 | INFO     | services.anomaly_detector:initialize_models:97 - 异常检测模型初始化完成
+2025-08-22 18:54:59.831 | INFO     | services.carbon_cycle:initialize_models:33 - 开始初始化碳循环分析模型...
+2025-08-22 18:54:59.831 | INFO     | services.carbon_cycle:initialize_models:42 - 碳循环分析模型初始化完成
+2025-08-22 18:54:59.831 | INFO     | main:lifespan:51 - AI模型初始化完成
+2025-08-22 18:57:00.085 | INFO     | main:predict_emissions:121 - 开始碳排放预测: manufacturing - coal
+2025-08-22 18:57:00.090 | ERROR    | services.ai_predictor:predict_emissions:131 - 碳排放预测失败: input.size(-1) must be equal to input_size. Expected 10, got 7
+2025-08-22 18:57:00.090 | ERROR    | main:predict_emissions:137 - 碳排放预测失败: input.size(-1) must be equal to input_size. Expected 10, got 7
+2025-08-22 18:57:01.235 | INFO     | main:predict_emissions:121 - 开始碳排放预测: manufacturing - coal
+2025-08-22 18:57:01.238 | ERROR    | services.ai_predictor:predict_emissions:131 - 碳排放预测失败: input.size(-1) must be equal to input_size. Expected 10, got 7
+2025-08-22 18:57:01.239 | ERROR    | main:predict_emissions:137 - 碳排放预测失败: input.size(-1) must be equal to input_size. Expected 10, got 7
+2025-08-22 18:57:01.830 | INFO     | main:predict_emissions:121 - 开始碳排放预测: manufacturing - coal
+2025-08-22 18:57:01.833 | ERROR    | services.ai_predictor:predict_emissions:131 - 碳排放预测失败: input.size(-1) must be equal to input_size. Expected 10, got 7
+2025-08-22 18:57:01.833 | ERROR    | main:predict_emissions:137 - 碳排放预测失败: input.size(-1) must be equal to input_size. Expected 10, got 7
+2025-08-22 18:57:02.023 | INFO     | main:predict_emissions:121 - 开始碳排放预测: manufacturing - coal
+2025-08-22 18:57:02.026 | ERROR    | services.ai_predictor:predict_emissions:131 - 碳排放预测失败: input.size(-1) must be equal to input_size. Expected 10, got 7
+2025-08-22 18:57:02.026 | ERROR    | main:predict_emissions:137 - 碳排放预测失败: input.size(-1) must be equal to input_size. Expected 10, got 7
+2025-08-22 18:57:02.223 | INFO     | main:predict_emissions:121 - 开始碳排放预测: manufacturing - coal
+2025-08-22 18:57:02.226 | ERROR    | services.ai_predictor:predict_emissions:131 - 碳排放预测失败: input.size(-1) must be equal to input_size. Expected 10, got 7
+2025-08-22 18:57:02.226 | ERROR    | main:predict_emissions:137 - 碳排放预测失败: input.size(-1) must be equal to input_size. Expected 10, got 7
+2025-08-22 18:57:02.460 | INFO     | main:predict_emissions:121 - 开始碳排放预测: manufacturing - coal
+2025-08-22 18:57:02.463 | ERROR    | services.ai_predictor:predict_emissions:131 - 碳排放预测失败: input.size(-1) must be equal to input_size. Expected 10, got 7
+2025-08-22 18:57:02.463 | ERROR    | main:predict_emissions:137 - 碳排放预测失败: input.size(-1) must be equal to input_size. Expected 10, got 7
+2025-08-22 18:57:02.678 | INFO     | main:predict_emissions:121 - 开始碳排放预测: manufacturing - coal
+2025-08-22 18:57:02.681 | ERROR    | services.ai_predictor:predict_emissions:131 - 碳排放预测失败: input.size(-1) must be equal to input_size. Expected 10, got 7
+2025-08-22 18:57:02.681 | ERROR    | main:predict_emissions:137 - 碳排放预测失败: input.size(-1) must be equal to input_size. Expected 10, got 7
+2025-08-22 18:57:03.457 | INFO     | main:detect_anomalies:144 - 开始异常检测: energy
+2025-08-22 18:57:04.857 | INFO     | main:detect_anomalies:144 - 开始异常检测: energy
+2025-08-22 18:57:06.319 | INFO     | main:analyze_carbon_cycle:165 - 开始碳循环分析: 华东
+2025-08-22 18:57:06.319 | INFO     | services.carbon_cycle:analyze_carbon_cycle:190 - 开始碳循环分析: 华东, 时间周期: 3年
+2025-08-22 18:57:07.587 | INFO     | main:analyze_carbon_cycle:165 - 开始碳循环分析: 华东
+2025-08-22 18:57:07.587 | INFO     | services.carbon_cycle:analyze_carbon_cycle:190 - 开始碳循环分析: 华东, 时间周期: 3年
+2025-08-22 18:57:08.244 | INFO     | main:analyze_carbon_cycle:165 - 开始碳循环分析: 华东
+2025-08-22 18:57:08.244 | INFO     | services.carbon_cycle:analyze_carbon_cycle:190 - 开始碳循环分析: 华东, 时间周期: 3年
+2025-08-22 18:57:08.427 | INFO     | main:analyze_carbon_cycle:165 - 开始碳循环分析: 华东
+2025-08-22 18:57:08.428 | INFO     | services.carbon_cycle:analyze_carbon_cycle:190 - 开始碳循环分析: 华东, 时间周期: 3年
+2025-08-22 18:57:08.664 | INFO     | main:analyze_carbon_cycle:165 - 开始碳循环分析: 华东
+2025-08-22 18:57:08.664 | INFO     | services.carbon_cycle:analyze_carbon_cycle:190 - 开始碳循环分析: 华东, 时间周期: 3年
+2025-08-22 18:57:18.174 | INFO     | main:analyze_carbon_cycle:165 - 开始碳循环分析: 华东
+2025-08-22 18:57:18.175 | INFO     | services.carbon_cycle:analyze_carbon_cycle:190 - 开始碳循环分析: 华东, 时间周期: 3年
+2025-08-22 18:57:18.931 | INFO     | main:analyze_carbon_cycle:165 - 开始碳循环分析: 华东
+2025-08-22 18:57:18.932 | INFO     | services.carbon_cycle:analyze_carbon_cycle:190 - 开始碳循环分析: 华东, 时间周期: 3年
+2025-08-22 18:57:19.287 | INFO     | main:analyze_carbon_cycle:165 - 开始碳循环分析: 华东
+2025-08-22 18:57:19.287 | INFO     | services.carbon_cycle:analyze_carbon_cycle:190 - 开始碳循环分析: 华东, 时间周期: 3年
+2025-08-22 18:57:19.496 | INFO     | main:analyze_carbon_cycle:165 - 开始碳循环分析: 华东
+2025-08-22 18:57:19.496 | INFO     | services.carbon_cycle:analyze_carbon_cycle:190 - 开始碳循环分析: 华东, 时间周期: 3年
+2025-08-22 18:57:19.699 | INFO     | main:analyze_carbon_cycle:165 - 开始碳循环分析: 华东
+2025-08-22 18:57:19.700 | INFO     | services.carbon_cycle:analyze_carbon_cycle:190 - 开始碳循环分析: 华东, 时间周期: 3年
+2025-08-22 18:57:19.875 | INFO     | main:analyze_carbon_cycle:165 - 开始碳循环分析: 华东
+2025-08-22 18:57:19.875 | INFO     | services.carbon_cycle:analyze_carbon_cycle:190 - 开始碳循环分析: 华东, 时间周期: 3年
+2025-08-22 18:57:20.188 | INFO     | main:analyze_carbon_cycle:165 - 开始碳循环分析: 华东
+2025-08-22 18:57:20.188 | INFO     | services.carbon_cycle:analyze_carbon_cycle:190 - 开始碳循环分析: 华东, 时间周期: 3年
+2025-08-22 18:57:20.400 | INFO     | main:analyze_carbon_cycle:165 - 开始碳循环分析: 华东
+2025-08-22 18:57:20.400 | INFO     | services.carbon_cycle:analyze_carbon_cycle:190 - 开始碳循环分析: 华东, 时间周期: 3年
+2025-08-22 18:57:22.980 | INFO     | main:detect_anomalies:144 - 开始异常检测: energy
+2025-08-22 18:57:24.159 | INFO     | main:predict_emissions:121 - 开始碳排放预测: manufacturing - coal
+2025-08-22 18:57:24.162 | ERROR    | services.ai_predictor:predict_emissions:131 - 碳排放预测失败: input.size(-1) must be equal to input_size. Expected 10, got 7
+2025-08-22 18:57:24.162 | ERROR    | main:predict_emissions:137 - 碳排放预测失败: input.size(-1) must be equal to input_size. Expected 10, got 7
+2025-08-22 18:57:28.040 | INFO     | main:predict_emissions:121 - 开始碳排放预测: manufacturing - coal
+2025-08-22 18:57:28.044 | ERROR    | services.ai_predictor:predict_emissions:131 - 碳排放预测失败: input.size(-1) must be equal to input_size. Expected 10, got 7
+2025-08-22 18:57:28.044 | ERROR    | main:predict_emissions:137 - 碳排放预测失败: input.size(-1) must be equal to input_size. Expected 10, got 7
+2025-08-22 18:57:31.744 | INFO     | main:predict_emissions:121 - 开始碳排放预测: manufacturing - coal
+2025-08-22 18:57:31.747 | ERROR    | services.ai_predictor:predict_emissions:131 - 碳排放预测失败: input.size(-1) must be equal to input_size. Expected 10, got 7
+2025-08-22 18:57:31.747 | ERROR    | main:predict_emissions:137 - 碳排放预测失败: input.size(-1) must be equal to input_size. Expected 10, got 7
+2025-08-22 18:57:46.492 | INFO     | main:analyze_carbon_cycle:165 - 开始碳循环分析: 华东
+2025-08-22 18:57:46.492 | INFO     | services.carbon_cycle:analyze_carbon_cycle:190 - 开始碳循环分析: 华东, 时间周期: 3年
+2025-08-22 18:58:18.064 | INFO     | main:analyze_carbon_cycle:165 - 开始碳循环分析: 华东
+2025-08-22 18:58:18.064 | INFO     | services.carbon_cycle:analyze_carbon_cycle:190 - 开始碳循环分析: 华东, 时间周期: 3年
+2025-08-22 18:58:21.459 | INFO     | main:analyze_carbon_cycle:165 - 开始碳循环分析: 华东
+2025-08-22 18:58:21.460 | INFO     | services.carbon_cycle:analyze_carbon_cycle:190 - 开始碳循环分析: 华东, 时间周期: 3年
+2025-08-22 18:59:47.849 | INFO     | main:lifespan:55 - 应用关闭，Lifespan清理完成
+2025-08-22 18:59:47.896 | INFO     | main:lifespan:55 - 应用关闭，Lifespan清理完成
+2025-08-22 18:59:53.703 | INFO     | main:lifespan:45 - 碳排放AI分析服务启动中...
+2025-08-22 18:59:53.703 | INFO     | services.ai_predictor:initialize_models:51 - 开始初始化AI预测模型...
+2025-08-22 18:59:53.705 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_coal
+2025-08-22 18:59:53.706 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_oil
+2025-08-22 18:59:53.707 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_gas
+2025-08-22 18:59:53.708 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_electricity
+2025-08-22 18:59:53.708 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_renewable
+2025-08-22 18:59:53.709 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_nuclear
+2025-08-22 18:59:53.710 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_coal
+2025-08-22 18:59:53.711 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_oil
+2025-08-22 18:59:53.712 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_gas
+2025-08-22 18:59:53.713 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_electricity
+2025-08-22 18:59:53.714 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_renewable
+2025-08-22 18:59:53.714 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_nuclear
+2025-08-22 18:59:53.715 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_coal
+2025-08-22 18:59:53.716 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_oil
+2025-08-22 18:59:53.717 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_gas
+2025-08-22 18:59:53.718 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_electricity
+2025-08-22 18:59:53.719 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_renewable
+2025-08-22 18:59:53.719 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_nuclear
+2025-08-22 18:59:53.720 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_coal
+2025-08-22 18:59:53.721 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_oil
+2025-08-22 18:59:53.722 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_gas
+2025-08-22 18:59:53.723 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_electricity
+2025-08-22 18:59:53.724 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_renewable
+2025-08-22 18:59:53.726 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_nuclear
+2025-08-22 18:59:53.727 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_coal
+2025-08-22 18:59:53.728 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_oil
+2025-08-22 18:59:53.728 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_gas
+2025-08-22 18:59:53.729 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_electricity
+2025-08-22 18:59:53.729 | INFO     | main:lifespan:45 - 碳排放AI分析服务启动中...
+2025-08-22 18:59:53.730 | INFO     | services.ai_predictor:initialize_models:51 - 开始初始化AI预测模型...
+2025-08-22 18:59:53.730 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_renewable
+2025-08-22 18:59:53.731 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_nuclear
+2025-08-22 18:59:53.732 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_coal
+2025-08-22 18:59:53.732 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_coal
+2025-08-22 18:59:53.733 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_oil
+2025-08-22 18:59:53.733 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_oil
+2025-08-22 18:59:53.733 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_gas
+2025-08-22 18:59:53.734 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_gas
+2025-08-22 18:59:53.734 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_electricity
+2025-08-22 18:59:53.735 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_electricity
+2025-08-22 18:59:53.735 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_renewable
+2025-08-22 18:59:53.735 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_renewable
+2025-08-22 18:59:53.736 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_nuclear
+2025-08-22 18:59:53.736 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_nuclear
+2025-08-22 18:59:53.737 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_coal
+2025-08-22 18:59:53.737 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_coal
+2025-08-22 18:59:53.738 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_oil
+2025-08-22 18:59:53.738 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_oil
+2025-08-22 18:59:53.739 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_gas
+2025-08-22 18:59:53.739 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_gas
+2025-08-22 18:59:53.740 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_electricity
+2025-08-22 18:59:53.740 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_electricity
+2025-08-22 18:59:53.740 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_renewable
+2025-08-22 18:59:53.741 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_renewable
+2025-08-22 18:59:53.741 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_nuclear
+2025-08-22 18:59:53.742 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_nuclear
+2025-08-22 18:59:53.742 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_coal
+2025-08-22 18:59:53.742 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_coal
+2025-08-22 18:59:53.743 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_oil
+2025-08-22 18:59:53.743 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_oil
+2025-08-22 18:59:53.744 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_gas
+2025-08-22 18:59:53.744 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_gas
+2025-08-22 18:59:53.745 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_electricity
+2025-08-22 18:59:53.745 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_electricity
+2025-08-22 18:59:53.745 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_renewable
+2025-08-22 18:59:53.746 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_renewable
+2025-08-22 18:59:53.746 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_nuclear
+2025-08-22 18:59:53.746 | INFO     | services.ai_predictor:initialize_models:83 - AI预测模型初始化完成
+2025-08-22 18:59:53.746 | INFO     | services.anomaly_detector:initialize_models:60 - 开始初始化异常检测模型...
+2025-08-22 18:59:53.747 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_nuclear
+2025-08-22 18:59:53.747 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: manufacturing
+2025-08-22 18:59:53.748 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_coal
+2025-08-22 18:59:53.748 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: energy
+2025-08-22 18:59:53.748 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: transportation
+2025-08-22 18:59:53.748 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_oil
+2025-08-22 18:59:53.749 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: agriculture
+2025-08-22 18:59:53.749 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_gas
+2025-08-22 18:59:53.750 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: construction
+2025-08-22 18:59:53.750 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: services
+2025-08-22 18:59:53.750 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_electricity
+2025-08-22 18:59:53.751 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: mining
+2025-08-22 18:59:53.751 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_renewable
+2025-08-22 18:59:53.752 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: chemical
+2025-08-22 18:59:53.752 | INFO     | services.anomaly_detector:initialize_models:97 - 异常检测模型初始化完成
+2025-08-22 18:59:53.752 | INFO     | services.carbon_cycle:initialize_models:33 - 开始初始化碳循环分析模型...
+2025-08-22 18:59:53.752 | INFO     | services.carbon_cycle:initialize_models:42 - 碳循环分析模型初始化完成
+2025-08-22 18:59:53.752 | INFO     | main:lifespan:51 - AI模型初始化完成
+2025-08-22 18:59:53.752 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_nuclear
+2025-08-22 18:59:53.753 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_coal
+2025-08-22 18:59:53.754 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_oil
+2025-08-22 18:59:53.755 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_gas
+2025-08-22 18:59:53.756 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_electricity
+2025-08-22 18:59:53.757 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_renewable
+2025-08-22 18:59:53.758 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_nuclear
+2025-08-22 18:59:53.758 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_coal
+2025-08-22 18:59:53.759 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_oil
+2025-08-22 18:59:53.760 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_gas
+2025-08-22 18:59:53.761 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_electricity
+2025-08-22 18:59:53.762 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_renewable
+2025-08-22 18:59:53.763 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_nuclear
+2025-08-22 18:59:53.763 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_coal
+2025-08-22 18:59:53.764 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_oil
+2025-08-22 18:59:53.765 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_gas
+2025-08-22 18:59:53.766 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_electricity
+2025-08-22 18:59:53.767 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_renewable
+2025-08-22 18:59:53.768 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_nuclear
+2025-08-22 18:59:53.769 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_coal
+2025-08-22 18:59:53.770 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_oil
+2025-08-22 18:59:53.771 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_gas
+2025-08-22 18:59:53.772 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_electricity
+2025-08-22 18:59:53.773 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_renewable
+2025-08-22 18:59:53.774 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_nuclear
+2025-08-22 18:59:53.774 | INFO     | services.ai_predictor:initialize_models:83 - AI预测模型初始化完成
+2025-08-22 18:59:53.774 | INFO     | services.anomaly_detector:initialize_models:60 - 开始初始化异常检测模型...
+2025-08-22 18:59:53.775 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: manufacturing
+2025-08-22 18:59:53.776 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: energy
+2025-08-22 18:59:53.776 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: transportation
+2025-08-22 18:59:53.777 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: agriculture
+2025-08-22 18:59:53.778 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: construction
+2025-08-22 18:59:53.778 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: services
+2025-08-22 18:59:53.779 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: mining
+2025-08-22 18:59:53.779 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: chemical
+2025-08-22 18:59:53.780 | INFO     | services.anomaly_detector:initialize_models:97 - 异常检测模型初始化完成
+2025-08-22 18:59:53.780 | INFO     | services.carbon_cycle:initialize_models:33 - 开始初始化碳循环分析模型...
+2025-08-22 18:59:53.780 | INFO     | services.carbon_cycle:initialize_models:42 - 碳循环分析模型初始化完成
+2025-08-22 18:59:53.780 | INFO     | main:lifespan:51 - AI模型初始化完成
+2025-08-22 19:13:00.534 | INFO     | main:lifespan:45 - 碳排放AI分析服务启动中...
+2025-08-22 19:13:00.536 | INFO     | services.ai_predictor:initialize_models:51 - 开始初始化AI预测模型...
+2025-08-22 19:13:00.537 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_coal
+2025-08-22 19:13:00.538 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_oil
+2025-08-22 19:13:00.539 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_gas
+2025-08-22 19:13:00.540 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_electricity
+2025-08-22 19:13:00.542 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_renewable
+2025-08-22 19:13:00.543 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_nuclear
+2025-08-22 19:13:00.544 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_coal
+2025-08-22 19:13:00.545 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_oil
+2025-08-22 19:13:00.546 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_gas
+2025-08-22 19:13:00.547 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_electricity
+2025-08-22 19:13:00.548 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_renewable
+2025-08-22 19:13:00.549 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_nuclear
+2025-08-22 19:13:00.551 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_coal
+2025-08-22 19:13:00.552 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_oil
+2025-08-22 19:13:00.553 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_gas
+2025-08-22 19:13:00.554 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_electricity
+2025-08-22 19:13:00.554 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_renewable
+2025-08-22 19:13:00.555 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_nuclear
+2025-08-22 19:13:00.557 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_coal
+2025-08-22 19:13:00.558 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_oil
+2025-08-22 19:13:00.559 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_gas
+2025-08-22 19:13:00.560 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_electricity
+2025-08-22 19:13:00.561 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_renewable
+2025-08-22 19:13:00.561 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_nuclear
+2025-08-22 19:13:00.562 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_coal
+2025-08-22 19:13:00.563 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_oil
+2025-08-22 19:13:00.564 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_gas
+2025-08-22 19:13:00.565 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_electricity
+2025-08-22 19:13:00.566 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_renewable
+2025-08-22 19:13:00.567 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_nuclear
+2025-08-22 19:13:00.568 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_coal
+2025-08-22 19:13:00.569 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_oil
+2025-08-22 19:13:00.570 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_gas
+2025-08-22 19:13:00.571 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_electricity
+2025-08-22 19:13:00.572 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_renewable
+2025-08-22 19:13:00.573 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_nuclear
+2025-08-22 19:13:00.574 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_coal
+2025-08-22 19:13:00.575 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_oil
+2025-08-22 19:13:00.577 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_gas
+2025-08-22 19:13:00.578 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_electricity
+2025-08-22 19:13:00.579 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_renewable
+2025-08-22 19:13:00.580 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_nuclear
+2025-08-22 19:13:00.581 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_coal
+2025-08-22 19:13:00.581 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_oil
+2025-08-22 19:13:00.583 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_gas
+2025-08-22 19:13:00.585 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_electricity
+2025-08-22 19:13:00.586 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_renewable
+2025-08-22 19:13:00.587 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_nuclear
+2025-08-22 19:13:00.587 | INFO     | services.ai_predictor:initialize_models:83 - AI预测模型初始化完成
+2025-08-22 19:13:00.588 | INFO     | services.anomaly_detector:initialize_models:60 - 开始初始化异常检测模型...
+2025-08-22 19:13:00.588 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: manufacturing
+2025-08-22 19:13:00.589 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: energy
+2025-08-22 19:13:00.590 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: transportation
+2025-08-22 19:13:00.591 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: agriculture
+2025-08-22 19:13:00.592 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: construction
+2025-08-22 19:13:00.592 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: services
+2025-08-22 19:13:00.593 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: mining
+2025-08-22 19:13:00.594 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: chemical
+2025-08-22 19:13:00.594 | INFO     | services.anomaly_detector:initialize_models:97 - 异常检测模型初始化完成
+2025-08-22 19:13:00.595 | INFO     | services.carbon_cycle:initialize_models:33 - 开始初始化碳循环分析模型...
+2025-08-22 19:13:00.595 | INFO     | services.carbon_cycle:initialize_models:42 - 碳循环分析模型初始化完成
+2025-08-22 19:13:00.595 | INFO     | main:lifespan:51 - AI模型初始化完成
+2025-08-22 19:26:20.883 | INFO     | main:predict_emissions:121 - 开始碳排放预测: manufacturing - coal
+2025-08-22 19:26:20.900 | ERROR    | main:predict_emissions:137 - 碳排放预测失败: 'trend_analysis'
+2025-08-22 19:26:21.714 | INFO     | main:predict_emissions:121 - 开始碳排放预测: manufacturing - coal
+2025-08-22 19:26:21.727 | ERROR    | main:predict_emissions:137 - 碳排放预测失败: 'trend_analysis'
+2025-08-22 19:26:25.477 | INFO     | main:predict_emissions:121 - 开始碳排放预测: energy - gas
+2025-08-22 19:26:25.493 | ERROR    | main:predict_emissions:137 - 碳排放预测失败: 'trend_analysis'
+2025-08-22 19:26:27.363 | INFO     | main:detect_anomalies:144 - 开始异常检测: energy
+2025-08-22 19:26:28.522 | INFO     | main:detect_anomalies:144 - 开始异常检测: energy
+2025-08-22 19:26:31.112 | INFO     | main:detect_anomalies:144 - 开始异常检测: manufacturing
+2025-08-22 19:26:37.784 | INFO     | main:analyze_carbon_cycle:165 - 开始碳循环分析: 华东
+2025-08-22 19:26:37.784 | ERROR    | main:analyze_carbon_cycle:181 - 碳循环分析失败: analyze_carbon_cycle() got an unexpected keyword argument 'include_remote_sensing'
+2025-08-22 19:26:39.233 | INFO     | main:analyze_carbon_cycle:165 - 开始碳循环分析: 华东
+2025-08-22 19:26:39.233 | ERROR    | main:analyze_carbon_cycle:181 - 碳循环分析失败: analyze_carbon_cycle() got an unexpected keyword argument 'include_remote_sensing'
+2025-08-22 19:26:40.072 | INFO     | main:analyze_carbon_cycle:165 - 开始碳循环分析: 华东
+2025-08-22 19:26:40.073 | ERROR    | main:analyze_carbon_cycle:181 - 碳循环分析失败: analyze_carbon_cycle() got an unexpected keyword argument 'include_remote_sensing'
+2025-08-22 19:26:42.513 | INFO     | main:analyze_carbon_cycle:165 - 开始碳循环分析: 全国
+2025-08-22 19:26:42.514 | ERROR    | main:analyze_carbon_cycle:181 - 碳循环分析失败: analyze_carbon_cycle() got an unexpected keyword argument 'include_remote_sensing'
+2025-08-22 19:27:26.065 | INFO     | main:analyze_carbon_cycle:165 - 开始碳循环分析: 全国
+2025-08-22 19:27:26.065 | ERROR    | main:analyze_carbon_cycle:181 - 碳循环分析失败: analyze_carbon_cycle() got an unexpected keyword argument 'include_remote_sensing'
+2025-08-22 19:27:26.379 | INFO     | main:analyze_carbon_cycle:165 - 开始碳循环分析: 全国
+2025-08-22 19:27:26.379 | ERROR    | main:analyze_carbon_cycle:181 - 碳循环分析失败: analyze_carbon_cycle() got an unexpected keyword argument 'include_remote_sensing'
+2025-08-22 19:27:26.870 | INFO     | main:analyze_carbon_cycle:165 - 开始碳循环分析: 全国
+2025-08-22 19:27:26.871 | ERROR    | main:analyze_carbon_cycle:181 - 碳循环分析失败: analyze_carbon_cycle() got an unexpected keyword argument 'include_remote_sensing'
+2025-08-22 19:27:27.724 | INFO     | main:predict_emissions:121 - 开始碳排放预测: manufacturing - coal
+2025-08-22 19:27:27.743 | ERROR    | main:predict_emissions:137 - 碳排放预测失败: 'trend_analysis'
+2025-08-22 19:27:28.646 | INFO     | main:predict_emissions:121 - 开始碳排放预测: manufacturing - coal
+2025-08-22 19:27:28.659 | ERROR    | main:predict_emissions:137 - 碳排放预测失败: 'trend_analysis'
+2025-08-22 19:27:28.830 | INFO     | main:predict_emissions:121 - 开始碳排放预测: manufacturing - coal
+2025-08-22 19:27:28.848 | ERROR    | main:predict_emissions:137 - 碳排放预测失败: 'trend_analysis'
+2025-08-22 19:27:29.732 | INFO     | main:analyze_carbon_cycle:165 - 开始碳循环分析: 华东
+2025-08-22 19:27:29.732 | ERROR    | main:analyze_carbon_cycle:181 - 碳循环分析失败: analyze_carbon_cycle() got an unexpected keyword argument 'include_remote_sensing'
+2025-08-22 19:27:31.000 | INFO     | main:analyze_carbon_cycle:165 - 开始碳循环分析: 华东
+2025-08-22 19:27:31.001 | ERROR    | main:analyze_carbon_cycle:181 - 碳循环分析失败: analyze_carbon_cycle() got an unexpected keyword argument 'include_remote_sensing'
+2025-08-22 19:27:31.219 | INFO     | main:analyze_carbon_cycle:165 - 开始碳循环分析: 华东
+2025-08-22 19:27:31.219 | ERROR    | main:analyze_carbon_cycle:181 - 碳循环分析失败: analyze_carbon_cycle() got an unexpected keyword argument 'include_remote_sensing'
+2025-08-22 19:30:09.987 | INFO     | main:lifespan:55 - 应用关闭，Lifespan清理完成
+2025-08-22 19:30:15.524 | INFO     | main:lifespan:45 - 碳排放AI分析服务启动中...
+2025-08-22 19:30:15.525 | INFO     | services.ai_predictor:initialize_models:51 - 开始初始化AI预测模型...
+2025-08-22 19:30:15.526 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_coal
+2025-08-22 19:30:15.527 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_oil
+2025-08-22 19:30:15.528 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_gas
+2025-08-22 19:30:15.529 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_electricity
+2025-08-22 19:30:15.530 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_renewable
+2025-08-22 19:30:15.531 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_nuclear
+2025-08-22 19:30:15.532 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_coal
+2025-08-22 19:30:15.533 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_oil
+2025-08-22 19:30:15.533 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_gas
+2025-08-22 19:30:15.534 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_electricity
+2025-08-22 19:30:15.535 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_renewable
+2025-08-22 19:30:15.536 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_nuclear
+2025-08-22 19:30:15.537 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_coal
+2025-08-22 19:30:15.538 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_oil
+2025-08-22 19:30:15.539 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_gas
+2025-08-22 19:30:15.540 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_electricity
+2025-08-22 19:30:15.540 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_renewable
+2025-08-22 19:30:15.541 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_nuclear
+2025-08-22 19:30:15.542 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_coal
+2025-08-22 19:30:15.543 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_oil
+2025-08-22 19:30:15.544 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_gas
+2025-08-22 19:30:15.544 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_electricity
+2025-08-22 19:30:15.545 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_renewable
+2025-08-22 19:30:15.546 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_nuclear
+2025-08-22 19:30:15.547 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_coal
+2025-08-22 19:30:15.548 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_oil
+2025-08-22 19:30:15.548 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_gas
+2025-08-22 19:30:15.549 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_electricity
+2025-08-22 19:30:15.550 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_renewable
+2025-08-22 19:30:15.551 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_nuclear
+2025-08-22 19:30:15.552 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_coal
+2025-08-22 19:30:15.553 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_oil
+2025-08-22 19:30:15.554 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_gas
+2025-08-22 19:30:15.555 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_electricity
+2025-08-22 19:30:15.556 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_renewable
+2025-08-22 19:30:15.557 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_nuclear
+2025-08-22 19:30:15.557 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_coal
+2025-08-22 19:30:15.558 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_oil
+2025-08-22 19:30:15.559 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_gas
+2025-08-22 19:30:15.560 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_electricity
+2025-08-22 19:30:15.561 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_renewable
+2025-08-22 19:30:15.562 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_nuclear
+2025-08-22 19:30:15.563 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_coal
+2025-08-22 19:30:15.563 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_oil
+2025-08-22 19:30:15.564 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_gas
+2025-08-22 19:30:15.565 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_electricity
+2025-08-22 19:30:15.566 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_renewable
+2025-08-22 19:30:15.567 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_nuclear
+2025-08-22 19:30:15.567 | INFO     | services.ai_predictor:initialize_models:83 - AI预测模型初始化完成
+2025-08-22 19:30:15.567 | INFO     | services.anomaly_detector:initialize_models:60 - 开始初始化异常检测模型...
+2025-08-22 19:30:15.568 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: manufacturing
+2025-08-22 19:30:15.569 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: energy
+2025-08-22 19:30:15.570 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: transportation
+2025-08-22 19:30:15.571 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: agriculture
+2025-08-22 19:30:15.572 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: construction
+2025-08-22 19:30:15.573 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: services
+2025-08-22 19:30:15.573 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: mining
+2025-08-22 19:30:15.574 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: chemical
+2025-08-22 19:30:15.574 | INFO     | services.anomaly_detector:initialize_models:97 - 异常检测模型初始化完成
+2025-08-22 19:30:15.574 | INFO     | services.carbon_cycle:initialize_models:33 - 开始初始化碳循环分析模型...
+2025-08-22 19:30:15.575 | INFO     | services.carbon_cycle:initialize_models:42 - 碳循环分析模型初始化完成
+2025-08-22 19:30:15.575 | INFO     | main:lifespan:51 - AI模型初始化完成
+2025-08-22 19:30:28.689 | INFO     | main:lifespan:55 - 应用关闭，Lifespan清理完成
+2025-08-22 19:30:34.096 | INFO     | main:lifespan:45 - 碳排放AI分析服务启动中...
+2025-08-22 19:30:34.097 | INFO     | services.ai_predictor:initialize_models:51 - 开始初始化AI预测模型...
+2025-08-22 19:30:34.098 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_coal
+2025-08-22 19:30:34.099 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_oil
+2025-08-22 19:30:34.100 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_gas
+2025-08-22 19:30:34.101 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_electricity
+2025-08-22 19:30:34.102 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_renewable
+2025-08-22 19:30:34.103 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_nuclear
+2025-08-22 19:30:34.104 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_coal
+2025-08-22 19:30:34.105 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_oil
+2025-08-22 19:30:34.106 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_gas
+2025-08-22 19:30:34.107 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_electricity
+2025-08-22 19:30:34.108 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_renewable
+2025-08-22 19:30:34.109 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_nuclear
+2025-08-22 19:30:34.109 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_coal
+2025-08-22 19:30:34.110 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_oil
+2025-08-22 19:30:34.111 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_gas
+2025-08-22 19:30:34.112 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_electricity
+2025-08-22 19:30:34.113 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_renewable
+2025-08-22 19:30:34.114 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_nuclear
+2025-08-22 19:30:34.115 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_coal
+2025-08-22 19:30:34.116 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_oil
+2025-08-22 19:30:34.116 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_gas
+2025-08-22 19:30:34.117 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_electricity
+2025-08-22 19:30:34.119 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_renewable
+2025-08-22 19:30:34.120 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_nuclear
+2025-08-22 19:30:34.120 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_coal
+2025-08-22 19:30:34.121 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_oil
+2025-08-22 19:30:34.122 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_gas
+2025-08-22 19:30:34.123 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_electricity
+2025-08-22 19:30:34.124 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_renewable
+2025-08-22 19:30:34.124 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_nuclear
+2025-08-22 19:30:34.125 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_coal
+2025-08-22 19:30:34.126 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_oil
+2025-08-22 19:30:34.127 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_gas
+2025-08-22 19:30:34.128 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_electricity
+2025-08-22 19:30:34.129 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_renewable
+2025-08-22 19:30:34.129 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_nuclear
+2025-08-22 19:30:34.130 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_coal
+2025-08-22 19:30:34.131 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_oil
+2025-08-22 19:30:34.132 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_gas
+2025-08-22 19:30:34.133 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_electricity
+2025-08-22 19:30:34.134 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_renewable
+2025-08-22 19:30:34.135 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_nuclear
+2025-08-22 19:30:34.136 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_coal
+2025-08-22 19:30:34.137 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_oil
+2025-08-22 19:30:34.138 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_gas
+2025-08-22 19:30:34.139 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_electricity
+2025-08-22 19:30:34.140 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_renewable
+2025-08-22 19:30:34.141 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_nuclear
+2025-08-22 19:30:34.141 | INFO     | services.ai_predictor:initialize_models:83 - AI预测模型初始化完成
+2025-08-22 19:30:34.141 | INFO     | services.anomaly_detector:initialize_models:60 - 开始初始化异常检测模型...
+2025-08-22 19:30:34.142 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: manufacturing
+2025-08-22 19:30:34.142 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: energy
+2025-08-22 19:30:34.143 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: transportation
+2025-08-22 19:30:34.143 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: agriculture
+2025-08-22 19:30:34.145 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: construction
+2025-08-22 19:30:34.146 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: services
+2025-08-22 19:30:34.146 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: mining
+2025-08-22 19:30:34.147 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: chemical
+2025-08-22 19:30:34.147 | INFO     | services.anomaly_detector:initialize_models:97 - 异常检测模型初始化完成
+2025-08-22 19:30:34.147 | INFO     | services.carbon_cycle:initialize_models:37 - 开始初始化碳循环分析模型...
+2025-08-22 19:30:34.148 | INFO     | services.carbon_cycle:initialize_models:46 - 碳循环分析模型初始化完成
+2025-08-22 19:30:34.148 | INFO     | main:lifespan:51 - AI模型初始化完成
+2025-08-22 19:31:09.522 | INFO     | main:lifespan:55 - 应用关闭，Lifespan清理完成
+2025-08-22 19:31:15.006 | INFO     | main:lifespan:45 - 碳排放AI分析服务启动中...
+2025-08-22 19:31:15.007 | INFO     | services.ai_predictor:initialize_models:51 - 开始初始化AI预测模型...
+2025-08-22 19:31:15.008 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_coal
+2025-08-22 19:31:15.009 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_oil
+2025-08-22 19:31:15.010 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_gas
+2025-08-22 19:31:15.011 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_electricity
+2025-08-22 19:31:15.012 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_renewable
+2025-08-22 19:31:15.013 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_nuclear
+2025-08-22 19:31:15.013 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_coal
+2025-08-22 19:31:15.014 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_oil
+2025-08-22 19:31:15.015 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_gas
+2025-08-22 19:31:15.016 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_electricity
+2025-08-22 19:31:15.017 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_renewable
+2025-08-22 19:31:15.018 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_nuclear
+2025-08-22 19:31:15.019 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_coal
+2025-08-22 19:31:15.020 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_oil
+2025-08-22 19:31:15.021 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_gas
+2025-08-22 19:31:15.022 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_electricity
+2025-08-22 19:31:15.023 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_renewable
+2025-08-22 19:31:15.023 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_nuclear
+2025-08-22 19:31:15.024 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_coal
+2025-08-22 19:31:15.025 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_oil
+2025-08-22 19:31:15.026 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_gas
+2025-08-22 19:31:15.027 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_electricity
+2025-08-22 19:31:15.028 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_renewable
+2025-08-22 19:31:15.028 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_nuclear
+2025-08-22 19:31:15.029 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_coal
+2025-08-22 19:31:15.030 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_oil
+2025-08-22 19:31:15.031 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_gas
+2025-08-22 19:31:15.032 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_electricity
+2025-08-22 19:31:15.032 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_renewable
+2025-08-22 19:31:15.033 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_nuclear
+2025-08-22 19:31:15.034 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_coal
+2025-08-22 19:31:15.035 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_oil
+2025-08-22 19:31:15.036 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_gas
+2025-08-22 19:31:15.037 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_electricity
+2025-08-22 19:31:15.038 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_renewable
+2025-08-22 19:31:15.039 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_nuclear
+2025-08-22 19:31:15.040 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_coal
+2025-08-22 19:31:15.041 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_oil
+2025-08-22 19:31:15.042 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_gas
+2025-08-22 19:31:15.043 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_electricity
+2025-08-22 19:31:15.044 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_renewable
+2025-08-22 19:31:15.044 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_nuclear
+2025-08-22 19:31:15.045 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_coal
+2025-08-22 19:31:15.046 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_oil
+2025-08-22 19:31:15.047 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_gas
+2025-08-22 19:31:15.048 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_electricity
+2025-08-22 19:31:15.048 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_renewable
+2025-08-22 19:31:15.049 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_nuclear
+2025-08-22 19:31:15.050 | INFO     | services.ai_predictor:initialize_models:83 - AI预测模型初始化完成
+2025-08-22 19:31:15.050 | INFO     | services.anomaly_detector:initialize_models:60 - 开始初始化异常检测模型...
+2025-08-22 19:31:15.051 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: manufacturing
+2025-08-22 19:31:15.052 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: energy
+2025-08-22 19:31:15.052 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: transportation
+2025-08-22 19:31:15.053 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: agriculture
+2025-08-22 19:31:15.054 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: construction
+2025-08-22 19:31:15.055 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: services
+2025-08-22 19:31:15.056 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: mining
+2025-08-22 19:31:15.056 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: chemical
+2025-08-22 19:31:15.057 | INFO     | services.anomaly_detector:initialize_models:97 - 异常检测模型初始化完成
+2025-08-22 19:31:15.057 | INFO     | services.carbon_cycle:initialize_models:37 - 开始初始化碳循环分析模型...
+2025-08-22 19:31:15.057 | INFO     | services.carbon_cycle:initialize_models:46 - 碳循环分析模型初始化完成
+2025-08-22 19:31:15.057 | INFO     | main:lifespan:51 - AI模型初始化完成
+2025-08-22 19:31:36.406 | INFO     | main:lifespan:55 - 应用关闭，Lifespan清理完成
+2025-08-22 19:31:42.566 | INFO     | main:lifespan:45 - 碳排放AI分析服务启动中...
+2025-08-22 19:31:42.568 | INFO     | services.ai_predictor:initialize_models:51 - 开始初始化AI预测模型...
+2025-08-22 19:31:42.570 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_coal
+2025-08-22 19:31:42.571 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_oil
+2025-08-22 19:31:42.572 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_gas
+2025-08-22 19:31:42.572 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_electricity
+2025-08-22 19:31:42.573 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_renewable
+2025-08-22 19:31:42.574 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_nuclear
+2025-08-22 19:31:42.575 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_coal
+2025-08-22 19:31:42.576 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_oil
+2025-08-22 19:31:42.577 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_gas
+2025-08-22 19:31:42.578 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_electricity
+2025-08-22 19:31:42.579 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_renewable
+2025-08-22 19:31:42.580 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_nuclear
+2025-08-22 19:31:42.580 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_coal
+2025-08-22 19:31:42.581 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_oil
+2025-08-22 19:31:42.582 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_gas
+2025-08-22 19:31:42.583 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_electricity
+2025-08-22 19:31:42.584 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_renewable
+2025-08-22 19:31:42.585 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_nuclear
+2025-08-22 19:31:42.587 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_coal
+2025-08-22 19:31:42.588 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_oil
+2025-08-22 19:31:42.589 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_gas
+2025-08-22 19:31:42.590 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_electricity
+2025-08-22 19:31:42.591 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_renewable
+2025-08-22 19:31:42.591 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_nuclear
+2025-08-22 19:31:42.592 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_coal
+2025-08-22 19:31:42.593 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_oil
+2025-08-22 19:31:42.594 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_gas
+2025-08-22 19:31:42.595 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_electricity
+2025-08-22 19:31:42.596 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_renewable
+2025-08-22 19:31:42.597 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_nuclear
+2025-08-22 19:31:42.597 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_coal
+2025-08-22 19:31:42.598 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_oil
+2025-08-22 19:31:42.599 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_gas
+2025-08-22 19:31:42.600 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_electricity
+2025-08-22 19:31:42.601 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_renewable
+2025-08-22 19:31:42.602 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_nuclear
+2025-08-22 19:31:42.603 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_coal
+2025-08-22 19:31:42.605 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_oil
+2025-08-22 19:31:42.605 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_gas
+2025-08-22 19:31:42.606 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_electricity
+2025-08-22 19:31:42.607 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_renewable
+2025-08-22 19:31:42.608 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_nuclear
+2025-08-22 19:31:42.609 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_coal
+2025-08-22 19:31:42.610 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_oil
+2025-08-22 19:31:42.611 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_gas
+2025-08-22 19:31:42.612 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_electricity
+2025-08-22 19:31:42.612 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_renewable
+2025-08-22 19:31:42.613 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_nuclear
+2025-08-22 19:31:42.613 | INFO     | services.ai_predictor:initialize_models:83 - AI预测模型初始化完成
+2025-08-22 19:31:42.614 | INFO     | services.anomaly_detector:initialize_models:60 - 开始初始化异常检测模型...
+2025-08-22 19:31:42.614 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: manufacturing
+2025-08-22 19:31:42.615 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: energy
+2025-08-22 19:31:42.616 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: transportation
+2025-08-22 19:31:42.616 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: agriculture
+2025-08-22 19:31:42.618 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: construction
+2025-08-22 19:31:42.619 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: services
+2025-08-22 19:31:42.620 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: mining
+2025-08-22 19:31:42.620 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: chemical
+2025-08-22 19:31:42.621 | INFO     | services.anomaly_detector:initialize_models:97 - 异常检测模型初始化完成
+2025-08-22 19:31:42.621 | INFO     | services.carbon_cycle:initialize_models:37 - 开始初始化碳循环分析模型...
+2025-08-22 19:31:42.621 | INFO     | services.carbon_cycle:initialize_models:46 - 碳循环分析模型初始化完成
+2025-08-22 19:31:42.621 | INFO     | main:lifespan:51 - AI模型初始化完成
+2025-08-22 19:31:53.894 | INFO     | main:lifespan:55 - 应用关闭，Lifespan清理完成
+2025-08-22 19:31:59.519 | INFO     | main:lifespan:45 - 碳排放AI分析服务启动中...
+2025-08-22 19:31:59.520 | INFO     | services.ai_predictor:initialize_models:51 - 开始初始化AI预测模型...
+2025-08-22 19:31:59.522 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_coal
+2025-08-22 19:31:59.523 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_oil
+2025-08-22 19:31:59.523 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_gas
+2025-08-22 19:31:59.524 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_electricity
+2025-08-22 19:31:59.525 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_renewable
+2025-08-22 19:31:59.526 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_nuclear
+2025-08-22 19:31:59.527 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_coal
+2025-08-22 19:31:59.528 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_oil
+2025-08-22 19:31:59.529 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_gas
+2025-08-22 19:31:59.529 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_electricity
+2025-08-22 19:31:59.530 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_renewable
+2025-08-22 19:31:59.531 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_nuclear
+2025-08-22 19:31:59.532 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_coal
+2025-08-22 19:31:59.533 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_oil
+2025-08-22 19:31:59.534 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_gas
+2025-08-22 19:31:59.535 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_electricity
+2025-08-22 19:31:59.536 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_renewable
+2025-08-22 19:31:59.537 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_nuclear
+2025-08-22 19:31:59.538 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_coal
+2025-08-22 19:31:59.539 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_oil
+2025-08-22 19:31:59.540 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_gas
+2025-08-22 19:31:59.540 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_electricity
+2025-08-22 19:31:59.541 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_renewable
+2025-08-22 19:31:59.541 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_nuclear
+2025-08-22 19:31:59.542 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_coal
+2025-08-22 19:31:59.543 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_oil
+2025-08-22 19:31:59.545 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_gas
+2025-08-22 19:31:59.546 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_electricity
+2025-08-22 19:31:59.546 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_renewable
+2025-08-22 19:31:59.547 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_nuclear
+2025-08-22 19:31:59.548 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_coal
+2025-08-22 19:31:59.550 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_oil
+2025-08-22 19:31:59.551 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_gas
+2025-08-22 19:31:59.552 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_electricity
+2025-08-22 19:31:59.553 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_renewable
+2025-08-22 19:31:59.554 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_nuclear
+2025-08-22 19:31:59.554 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_coal
+2025-08-22 19:31:59.555 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_oil
+2025-08-22 19:31:59.556 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_gas
+2025-08-22 19:31:59.557 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_electricity
+2025-08-22 19:31:59.558 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_renewable
+2025-08-22 19:31:59.559 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_nuclear
+2025-08-22 19:31:59.559 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_coal
+2025-08-22 19:31:59.561 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_oil
+2025-08-22 19:31:59.562 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_gas
+2025-08-22 19:31:59.562 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_electricity
+2025-08-22 19:31:59.563 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_renewable
+2025-08-22 19:31:59.564 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_nuclear
+2025-08-22 19:31:59.564 | INFO     | services.ai_predictor:initialize_models:83 - AI预测模型初始化完成
+2025-08-22 19:31:59.565 | INFO     | services.anomaly_detector:initialize_models:60 - 开始初始化异常检测模型...
+2025-08-22 19:31:59.565 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: manufacturing
+2025-08-22 19:31:59.566 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: energy
+2025-08-22 19:31:59.567 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: transportation
+2025-08-22 19:31:59.567 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: agriculture
+2025-08-22 19:31:59.570 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: construction
+2025-08-22 19:31:59.571 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: services
+2025-08-22 19:31:59.571 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: mining
+2025-08-22 19:31:59.572 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: chemical
+2025-08-22 19:31:59.572 | INFO     | services.anomaly_detector:initialize_models:97 - 异常检测模型初始化完成
+2025-08-22 19:31:59.573 | INFO     | services.carbon_cycle:initialize_models:37 - 开始初始化碳循环分析模型...
+2025-08-22 19:31:59.573 | INFO     | services.carbon_cycle:initialize_models:46 - 碳循环分析模型初始化完成
+2025-08-22 19:31:59.573 | INFO     | main:lifespan:51 - AI模型初始化完成
+2025-08-22 19:36:28.541 | INFO     | main:lifespan:45 - 碳排放AI分析服务启动中...
+2025-08-22 19:36:28.542 | INFO     | services.ai_predictor:initialize_models:51 - 开始初始化AI预测模型...
+2025-08-22 19:36:28.544 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_coal
+2025-08-22 19:36:28.544 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_oil
+2025-08-22 19:36:28.545 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_gas
+2025-08-22 19:36:28.546 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_electricity
+2025-08-22 19:36:28.547 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_renewable
+2025-08-22 19:36:28.548 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: manufacturing_nuclear
+2025-08-22 19:36:28.549 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_coal
+2025-08-22 19:36:28.549 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_oil
+2025-08-22 19:36:28.550 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_gas
+2025-08-22 19:36:28.551 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_electricity
+2025-08-22 19:36:28.552 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_renewable
+2025-08-22 19:36:28.553 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: energy_nuclear
+2025-08-22 19:36:28.554 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_coal
+2025-08-22 19:36:28.555 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_oil
+2025-08-22 19:36:28.556 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_gas
+2025-08-22 19:36:28.557 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_electricity
+2025-08-22 19:36:28.557 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_renewable
+2025-08-22 19:36:28.558 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: transportation_nuclear
+2025-08-22 19:36:28.559 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_coal
+2025-08-22 19:36:28.560 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_oil
+2025-08-22 19:36:28.561 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_gas
+2025-08-22 19:36:28.561 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_electricity
+2025-08-22 19:36:28.562 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_renewable
+2025-08-22 19:36:28.563 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: agriculture_nuclear
+2025-08-22 19:36:28.564 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_coal
+2025-08-22 19:36:28.565 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_oil
+2025-08-22 19:36:28.566 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_gas
+2025-08-22 19:36:28.567 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_electricity
+2025-08-22 19:36:28.568 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_renewable
+2025-08-22 19:36:28.569 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: construction_nuclear
+2025-08-22 19:36:28.570 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_coal
+2025-08-22 19:36:28.570 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_oil
+2025-08-22 19:36:28.571 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_gas
+2025-08-22 19:36:28.572 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_electricity
+2025-08-22 19:36:28.573 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_renewable
+2025-08-22 19:36:28.574 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: services_nuclear
+2025-08-22 19:36:28.574 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_coal
+2025-08-22 19:36:28.575 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_oil
+2025-08-22 19:36:28.576 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_gas
+2025-08-22 19:36:28.577 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_electricity
+2025-08-22 19:36:28.578 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_renewable
+2025-08-22 19:36:28.578 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: mining_nuclear
+2025-08-22 19:36:28.579 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_coal
+2025-08-22 19:36:28.580 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_oil
+2025-08-22 19:36:28.581 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_gas
+2025-08-22 19:36:28.582 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_electricity
+2025-08-22 19:36:28.582 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_renewable
+2025-08-22 19:36:28.584 | INFO     | services.ai_predictor:initialize_models:80 - 创建新模型: chemical_nuclear
+2025-08-22 19:36:28.584 | INFO     | services.ai_predictor:initialize_models:83 - AI预测模型初始化完成
+2025-08-22 19:36:28.584 | INFO     | services.anomaly_detector:initialize_models:60 - 开始初始化异常检测模型...
+2025-08-22 19:36:28.585 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: manufacturing
+2025-08-22 19:36:28.586 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: energy
+2025-08-22 19:36:28.586 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: transportation
+2025-08-22 19:36:28.587 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: agriculture
+2025-08-22 19:36:28.588 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: construction
+2025-08-22 19:36:28.589 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: services
+2025-08-22 19:36:28.590 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: mining
+2025-08-22 19:36:28.590 | INFO     | services.anomaly_detector:initialize_models:94 - 创建新异常检测模型: chemical
+2025-08-22 19:36:28.590 | INFO     | services.anomaly_detector:initialize_models:97 - 异常检测模型初始化完成
+2025-08-22 19:36:28.591 | INFO     | services.carbon_cycle:initialize_models:37 - 开始初始化碳循环分析模型...
+2025-08-22 19:36:28.591 | INFO     | services.carbon_cycle:initialize_models:46 - 碳循环分析模型初始化完成
+2025-08-22 19:36:28.591 | INFO     | main:lifespan:51 - AI模型初始化完成
+2025-08-22 19:36:54.995 | INFO     | main:analyze_carbon_cycle:165 - 开始碳循环分析: 华东
+2025-08-22 19:36:54.996 | ERROR    | main:analyze_carbon_cycle:181 - 碳循环分析失败: analyze_carbon_cycle() got an unexpected keyword argument 'include_remote_sensing'
+2025-08-22 19:36:56.072 | INFO     | main:analyze_carbon_cycle:165 - 开始碳循环分析: 华东
+2025-08-22 19:36:56.072 | ERROR    | main:analyze_carbon_cycle:181 - 碳循环分析失败: analyze_carbon_cycle() got an unexpected keyword argument 'include_remote_sensing'
+2025-08-22 19:36:56.579 | INFO     | main:analyze_carbon_cycle:165 - 开始碳循环分析: 华东
+2025-08-22 19:36:56.579 | ERROR    | main:analyze_carbon_cycle:181 - 碳循环分析失败: analyze_carbon_cycle() got an unexpected keyword argument 'include_remote_sensing'
+2025-08-22 19:36:56.981 | INFO     | main:analyze_carbon_cycle:165 - 开始碳循环分析: 华东
+2025-08-22 19:36:56.982 | ERROR    | main:analyze_carbon_cycle:181 - 碳循环分析失败: analyze_carbon_cycle() got an unexpected keyword argument 'include_remote_sensing'
+2025-08-22 19:36:57.174 | INFO     | main:analyze_carbon_cycle:165 - 开始碳循环分析: 华东
+2025-08-22 19:36:57.175 | ERROR    | main:analyze_carbon_cycle:181 - 碳循环分析失败: analyze_carbon_cycle() got an unexpected keyword argument 'include_remote_sensing'

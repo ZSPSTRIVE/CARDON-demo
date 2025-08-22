@@ -1,0 +1,72 @@
+version: "3.9"
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: carbon-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: 123456
+      MYSQL_DATABASE: carbon_db
+      TZ: Asia/Shanghai
+    command: ["--default-authentication-plugin=mysql_native_password"]
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./backend/src/main/resources/db/init.sql:/docker-entrypoint-initdb.d/01_init.sql:ro
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  backend:
+    build: ./backend
+    container_name: carbon-backend
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/carbon_db?useSSL=false&useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: 123456
+      JWT_SECRET: change_me_super_secret
+      PYTHON_SERVICE_URL: http://python-service:8000
+    ports:
+      - "8080:8080"
+    depends_on:
+      mysql:
+        condition: service_healthy
+      python-service:
+        condition: service_started
+
+  python-service:
+    build: ./python-service
+    container_name: carbon-python-service
+    ports:
+      - "8000:8000"
+    volumes:
+      - python_data:/app/data
+      - python_models:/app/models
+      - python_maps:/app/maps
+      - python_logs:/app/logs
+    environment:
+      - PYTHONPATH=/app
+      - LOG_LEVEL=INFO
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  frontend:
+    build: ./frontend
+    container_name: carbon-frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+      - python-service
+
+volumes:
+  db_data:
+  python_data:
+  python_models:
+  python_maps:
+  python_logs: 

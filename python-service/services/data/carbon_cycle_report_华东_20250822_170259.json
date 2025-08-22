@@ -1,0 +1,24 @@
+{
+  "region": "华东",
+  "analysis_result": {
+    "carbon_sink": {
+      "forest": 466.2311564648971,
+      "grassland": 124.32830839063922,
+      "wetland": 198.92529342502274,
+      "cropland": 149.19397006876704,
+      "total": 938.6787283493262
+    },
+    "carbon_source": {
+      "energy": 25000.0,
+      "industry": 60.0,
+      "transportation": 20000.0,
+      "agriculture": 24.000000000000004,
+      "waste": 5000.0,
+      "total": 50084.0
+    },
+    "net_emission": 49145.321271650675,
+    "map_data": {
+      "map_path": "maps/carbon_cycle_华东_20250822.html"
+    }
+  }
+}
