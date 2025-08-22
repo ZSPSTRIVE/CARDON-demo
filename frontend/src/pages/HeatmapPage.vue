@@ -123,9 +123,9 @@
             <h4>政策建议</h4>
             <p>{{ analysis.policyRecommendations }}</p>
           </div>
-        </div>
-      </div>
-    </div>
+			</div>
+		</div>
+	</div>
 </template>
 
 <script setup lang="ts">
@@ -346,7 +346,7 @@ function generateAnalysis(data: any[]) {
     analysis.policyRecommendations = '当前排放控制效果良好，建议继续保持现有政策，并探索更先进的减排技术。'
   }
 }
-</script>
+</script> 
 
 <style scoped>
 .heatmap-container {
