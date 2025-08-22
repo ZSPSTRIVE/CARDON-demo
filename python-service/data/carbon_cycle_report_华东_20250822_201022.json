@@ -1,0 +1,792 @@
+{
+  "region": "华东",
+  "analysis_date": "2025-08-22T20:10:22.256882",
+  "summary": {
+    "total_days": 30,
+    "average_sink": 41.98685318488689,
+    "average_source": 0.9058175971329129,
+    "net_balance_trend": "improving"
+  },
+  "detailed_data": {
+    "carbon_sink": [
+      {
+        "date": "2025-07-23T20:10:22.241879",
+        "forest_sink": 23.25770102601389,
+        "grassland_sink": 5.953971462659555,
+        "wetland_sink": 8.930957193989332,
+        "total_sink": 38.14262968266277,
+        "seasonal_factor": 1.15,
+        "growth_factor": 1.0
+      },
+      {
+        "date": "2025-07-24T20:10:22.241879",
+        "forest_sink": 22.61781011096037,
+        "grassland_sink": 5.790159388405856,
+        "wetland_sink": 8.685239082608783,
+        "total_sink": 37.093208581975006,
+        "seasonal_factor": 1.15,
+        "growth_factor": 1.0003333333333333
+      },
+      {
+        "date": "2025-07-25T20:10:22.241879",
+        "forest_sink": 25.445198109709132,
+        "grassland_sink": 6.513970716085537,
+        "wetland_sink": 9.770956074128305,
+        "total_sink": 41.73012489992297,
+        "seasonal_factor": 1.15,
+        "growth_factor": 1.0006666666666666
+      },
+      {
+        "date": "2025-07-26T20:10:22.241879",
+        "forest_sink": 22.28428185933161,
+        "grassland_sink": 5.704776155988892,
+        "wetland_sink": 8.557164233983336,
+        "total_sink": 36.54622224930384,
+        "seasonal_factor": 1.15,
+        "growth_factor": 1.001
+      },
+      {
+        "date": "2025-07-27T20:10:22.241879",
+        "forest_sink": 24.82886802575592,
+        "grassland_sink": 6.356190214593515,
+        "wetland_sink": 9.534285321890271,
+        "total_sink": 40.7193435622397,
+        "seasonal_factor": 1.15,
+        "growth_factor": 1.0013333333333334
+      },
+      {
+        "date": "2025-07-28T20:10:22.241879",
+        "forest_sink": 22.66117671651867,
+        "grassland_sink": 5.801261239428782,
+        "wetland_sink": 8.701891859143169,
+        "total_sink": 37.16432981509062,
+        "seasonal_factor": 1.15,
+        "growth_factor": 1.0016666666666667
+      },
+      {
+        "date": "2025-07-29T20:10:22.241879",
+        "forest_sink": 24.05689949823601,
+        "grassland_sink": 6.158566271548418,
+        "wetland_sink": 9.237849407322626,
+        "total_sink": 39.45331517710705,
+        "seasonal_factor": 1.15,
+        "growth_factor": 1.002
+      },
+      {
+        "date": "2025-07-30T20:10:22.241879",
+        "forest_sink": 24.42156492865714,
+        "grassland_sink": 6.251920621736227,
+        "wetland_sink": 9.37788093260434,
+        "total_sink": 40.0513664829977,
+        "seasonal_factor": 1.15,
+        "growth_factor": 1.0023333333333333
+      },
+      {
+        "date": "2025-07-31T20:10:22.241879",
+        "forest_sink": 24.807282809098844,
+        "grassland_sink": 6.350664399129304,
+        "wetland_sink": 9.525996598693956,
+        "total_sink": 40.683943806922095,
+        "seasonal_factor": 1.15,
+        "growth_factor": 1.0026666666666666
+      },
+      {
+        "date": "2025-08-01T20:10:22.241879",
+        "forest_sink": 26.866638868698956,
+        "grassland_sink": 6.877859550386932,
+        "wetland_sink": 10.316789325580398,
+        "total_sink": 44.06128774466628,
+        "seasonal_factor": 1.2598076211353315,
+        "growth_factor": 1.003
+      },
+      {
+        "date": "2025-08-02T20:10:22.241879",
+        "forest_sink": 25.45736785821386,
+        "grassland_sink": 6.517086171702749,
+        "wetland_sink": 9.775629257554122,
+        "total_sink": 41.75008328747074,
+        "seasonal_factor": 1.2598076211353315,
+        "growth_factor": 1.0033333333333334
+      },
+      {
+        "date": "2025-08-03T20:10:22.241879",
+        "forest_sink": 25.588993342953852,
+        "grassland_sink": 6.5507822957961865,
+        "wetland_sink": 9.826173443694277,
+        "total_sink": 41.96594908244431,
+        "seasonal_factor": 1.2598076211353315,
+        "growth_factor": 1.0036666666666667
+      },
+      {
+        "date": "2025-08-04T20:10:22.241879",
+        "forest_sink": 26.49090924254056,
+        "grassland_sink": 6.781672766090383,
+        "wetland_sink": 10.172509149135575,
+        "total_sink": 43.44509115776651,
+        "seasonal_factor": 1.2598076211353315,
+        "growth_factor": 1.004
+      },
+      {
+        "date": "2025-08-05T20:10:22.241879",
+        "forest_sink": 24.214129959216372,
+        "grassland_sink": 6.19881726955939,
+        "wetland_sink": 9.298225904339086,
+        "total_sink": 39.71117313311484,
+        "seasonal_factor": 1.2598076211353315,
+        "growth_factor": 1.0043333333333333
+      },
+      {
+        "date": "2025-08-06T20:10:22.241879",
+        "forest_sink": 26.155828755599074,
+        "grassland_sink": 6.695892161433364,
+        "wetland_sink": 10.043838242150045,
+        "total_sink": 42.89555915918248,
+        "seasonal_factor": 1.2598076211353315,
+        "growth_factor": 1.0046666666666666
+      },
+      {
+        "date": "2025-08-07T20:10:22.241879",
+        "forest_sink": 25.472280051726734,
+        "grassland_sink": 6.520903693242046,
+        "wetland_sink": 9.781355539863066,
+        "total_sink": 41.77453928483185,
+        "seasonal_factor": 1.2598076211353315,
+        "growth_factor": 1.005
+      },
+      {
+        "date": "2025-08-08T20:10:22.241879",
+        "forest_sink": 25.93710963828071,
+        "grassland_sink": 6.639900067399861,
+        "wetland_sink": 9.959850101099791,
+        "total_sink": 42.53685980678036,
+        "seasonal_factor": 1.2598076211353315,
+        "growth_factor": 1.0053333333333334
+      },
+      {
+        "date": "2025-08-09T20:10:22.241879",
+        "forest_sink": 22.97138331024642,
+        "grassland_sink": 5.8806741274230845,
+        "wetland_sink": 8.821011191134627,
+        "total_sink": 37.67306862880413,
+        "seasonal_factor": 1.2598076211353315,
+        "growth_factor": 1.0056666666666667
+      },
+      {
+        "date": "2025-08-10T20:10:22.241879",
+        "forest_sink": 26.7851670505669,
+        "grassland_sink": 6.857002764945128,
+        "wetland_sink": 10.285504147417692,
+        "total_sink": 43.927673962929724,
+        "seasonal_factor": 1.2598076211353315,
+        "growth_factor": 1.006
+      },
+      {
+        "date": "2025-08-11T20:10:22.241879",
+        "forest_sink": 28.19961599815037,
+        "grassland_sink": 7.219101695526494,
+        "wetland_sink": 10.828652543289742,
+        "total_sink": 46.2473702369666,
+        "seasonal_factor": 1.2598076211353315,
+        "growth_factor": 1.0063333333333333
+      },
+      {
+        "date": "2025-08-12T20:10:22.241879",
+        "forest_sink": 27.19330942574728,
+        "grassland_sink": 6.961487212991304,
+        "wetland_sink": 10.442230819486955,
+        "total_sink": 44.59702745822553,
+        "seasonal_factor": 1.2598076211353315,
+        "growth_factor": 1.0066666666666666
+      },
+      {
+        "date": "2025-08-13T20:10:22.241879",
+        "forest_sink": 26.547677521057345,
+        "grassland_sink": 6.796205445390681,
+        "wetland_sink": 10.194308168086021,
+        "total_sink": 43.53819113453405,
+        "seasonal_factor": 1.2598076211353315,
+        "growth_factor": 1.007
+      },
+      {
+        "date": "2025-08-14T20:10:22.241879",
+        "forest_sink": 25.620351951998597,
+        "grassland_sink": 6.558810099711641,
+        "wetland_sink": 9.838215149567459,
+        "total_sink": 42.0173772012777,
+        "seasonal_factor": 1.2598076211353315,
+        "growth_factor": 1.0073333333333334
+      },
+      {
+        "date": "2025-08-15T20:10:22.241879",
+        "forest_sink": 29.090755935908906,
+        "grassland_sink": 7.447233519592679,
+        "wetland_sink": 11.170850279389017,
+        "total_sink": 47.7088397348906,
+        "seasonal_factor": 1.2598076211353315,
+        "growth_factor": 1.0076666666666667
+      },
+      {
+        "date": "2025-08-16T20:10:22.241879",
+        "forest_sink": 27.558120094207066,
+        "grassland_sink": 7.054878744117008,
+        "wetland_sink": 10.58231811617551,
+        "total_sink": 45.19531695449959,
+        "seasonal_factor": 1.2598076211353315,
+        "growth_factor": 1.008
+      },
+      {
+        "date": "2025-08-17T20:10:22.241879",
+        "forest_sink": 28.359250931257947,
+        "grassland_sink": 7.259968238402035,
+        "wetland_sink": 10.88995235760305,
+        "total_sink": 46.509171527263035,
+        "seasonal_factor": 1.2598076211353315,
+        "growth_factor": 1.0083333333333333
+      },
+      {
+        "date": "2025-08-18T20:10:22.241879",
+        "forest_sink": 27.183137224962277,
+        "grassland_sink": 6.958883129590343,
+        "wetland_sink": 10.438324694385512,
+        "total_sink": 44.58034504893813,
+        "seasonal_factor": 1.2598076211353315,
+        "growth_factor": 1.0086666666666666
+      },
+      {
+        "date": "2025-08-19T20:10:22.241879",
+        "forest_sink": 24.769739203652748,
+        "grassland_sink": 6.341053236135103,
+        "wetland_sink": 9.511579854202653,
+        "total_sink": 40.6223722939905,
+        "seasonal_factor": 1.2598076211353315,
+        "growth_factor": 1.009
+      },
+      {
+        "date": "2025-08-20T20:10:22.241879",
+        "forest_sink": 26.213620128473654,
+        "grassland_sink": 6.710686752889256,
+        "wetland_sink": 10.06603012933388,
+        "total_sink": 42.99033701069679,
+        "seasonal_factor": 1.2598076211353315,
+        "growth_factor": 1.0093333333333334
+      },
+      {
+        "date": "2025-08-21T20:10:22.241879",
+        "forest_sink": 26.996022828726428,
+        "grassland_sink": 6.910981844153968,
+        "wetland_sink": 10.366472766230947,
+        "total_sink": 44.273477439111346,
+        "seasonal_factor": 1.2598076211353315,
+        "growth_factor": 1.0096666666666667
+      }
+    ],
+    "carbon_source": [
+      {
+        "date": "2025-07-23T20:10:22.241879",
+        "industrial_source": 0.5651255509210623,
+        "transportation_source": 0.23546897955044266,
+        "agricultural_source": 0.14128138773026558,
+        "total_source": 0.9418759182017706,
+        "seasonal_factor": 0.8,
+        "growth_factor": 1.0
+      },
+      {
+        "date": "2025-07-24T20:10:22.241879",
+        "industrial_source": 0.5568360669819742,
+        "transportation_source": 0.23201502790915593,
+        "agricultural_source": 0.13920901674549355,
+        "total_source": 0.9280601116366237,
+        "seasonal_factor": 0.8,
+        "growth_factor": 1.0001666666666666
+      },
+      {
+        "date": "2025-07-25T20:10:22.241879",
+        "industrial_source": 0.49818012082896584,
+        "transportation_source": 0.20757505034540247,
+        "agricultural_source": 0.12454503020724146,
+        "total_source": 0.8303002013816099,
+        "seasonal_factor": 0.8,
+        "growth_factor": 1.0003333333333333
+      },
+      {
+        "date": "2025-07-26T20:10:22.241879",
+        "industrial_source": 0.5631496747328011,
+        "transportation_source": 0.23464569780533376,
+        "agricultural_source": 0.14078741868320027,
+        "total_source": 0.938582791221335,
+        "seasonal_factor": 0.8,
+        "growth_factor": 1.0005
+      },
+      {
+        "date": "2025-07-27T20:10:22.241879",
+        "industrial_source": 0.5381503696426085,
+        "transportation_source": 0.2242293206844202,
+        "agricultural_source": 0.13453759241065213,
+        "total_source": 0.8969172827376808,
+        "seasonal_factor": 0.8,
+        "growth_factor": 1.0006666666666666
+      },
+      {
+        "date": "2025-07-28T20:10:22.241879",
+        "industrial_source": 0.6000903501583845,
+        "transportation_source": 0.250037645899327,
+        "agricultural_source": 0.15002258753959613,
+        "total_source": 1.000150583597308,
+        "seasonal_factor": 0.8,
+        "growth_factor": 1.0008333333333332
+      },
+      {
+        "date": "2025-07-29T20:10:22.241879",
+        "industrial_source": 0.4837386039437993,
+        "transportation_source": 0.20155775164324968,
+        "agricultural_source": 0.12093465098594983,
+        "total_source": 0.8062310065729987,
+        "seasonal_factor": 0.8,
+        "growth_factor": 1.001
+      },
+      {
+        "date": "2025-07-30T20:10:22.241879",
+        "industrial_source": 0.5315743308975415,
+        "transportation_source": 0.22148930454064225,
+        "agricultural_source": 0.13289358272438537,
+        "total_source": 0.885957218162569,
+        "seasonal_factor": 0.8,
+        "growth_factor": 1.0011666666666668
+      },
+      {
+        "date": "2025-07-31T20:10:22.241879",
+        "industrial_source": 0.5237058487345524,
+        "transportation_source": 0.21821077030606348,
+        "agricultural_source": 0.1309264621836381,
+        "total_source": 0.8728430812242539,
+        "seasonal_factor": 0.8,
+        "growth_factor": 1.0013333333333334
+      },
+      {
+        "date": "2025-08-01T20:10:22.241879",
+        "industrial_source": 0.5358277394972957,
+        "transportation_source": 0.22326155812387322,
+        "agricultural_source": 0.13395693487432392,
+        "total_source": 0.8930462324954929,
+        "seasonal_factor": 0.8267949192431122,
+        "growth_factor": 1.0015
+      },
+      {
+        "date": "2025-08-02T20:10:22.241879",
+        "industrial_source": 0.5572938747387081,
+        "transportation_source": 0.2322057811411284,
+        "agricultural_source": 0.13932346868467702,
+        "total_source": 0.9288231245645135,
+        "seasonal_factor": 0.8267949192431122,
+        "growth_factor": 1.0016666666666667
+      },
+      {
+        "date": "2025-08-03T20:10:22.241879",
+        "industrial_source": 0.6217121902152741,
+        "transportation_source": 0.25904674592303084,
+        "agricultural_source": 0.15542804755381853,
+        "total_source": 1.0361869836921234,
+        "seasonal_factor": 0.8267949192431122,
+        "growth_factor": 1.0018333333333334
+      },
+      {
+        "date": "2025-08-04T20:10:22.241879",
+        "industrial_source": 0.5217114473135112,
+        "transportation_source": 0.21737976971396292,
+        "agricultural_source": 0.1304278618283778,
+        "total_source": 0.8695190788558517,
+        "seasonal_factor": 0.8267949192431122,
+        "growth_factor": 1.002
+      },
+      {
+        "date": "2025-08-05T20:10:22.241879",
+        "industrial_source": 0.567771849463975,
+        "transportation_source": 0.23657160394332286,
+        "agricultural_source": 0.14194296236599374,
+        "total_source": 0.9462864157732914,
+        "seasonal_factor": 0.8267949192431122,
+        "growth_factor": 1.0021666666666667
+      },
+      {
+        "date": "2025-08-06T20:10:22.241879",
+        "industrial_source": 0.5204102156320983,
+        "transportation_source": 0.2168375898467076,
+        "agricultural_source": 0.13010255390802458,
+        "total_source": 0.8673503593868304,
+        "seasonal_factor": 0.8267949192431122,
+        "growth_factor": 1.0023333333333333
+      },
+      {
+        "date": "2025-08-07T20:10:22.241879",
+        "industrial_source": 0.48373542382881374,
+        "transportation_source": 0.20155642659533904,
+        "agricultural_source": 0.12093385595720343,
+        "total_source": 0.8062257063813562,
+        "seasonal_factor": 0.8267949192431122,
+        "growth_factor": 1.0025
+      },
+      {
+        "date": "2025-08-08T20:10:22.241879",
+        "industrial_source": 0.5680404208101799,
+        "transportation_source": 0.23668350867090826,
+        "agricultural_source": 0.14201010520254498,
+        "total_source": 0.946734034683633,
+        "seasonal_factor": 0.8267949192431122,
+        "growth_factor": 1.0026666666666666
+      },
+      {
+        "date": "2025-08-09T20:10:22.241879",
+        "industrial_source": 0.5104755448295825,
+        "transportation_source": 0.21269814367899267,
+        "agricultural_source": 0.12761888620739562,
+        "total_source": 0.8507925747159707,
+        "seasonal_factor": 0.8267949192431122,
+        "growth_factor": 1.0028333333333332
+      },
+      {
+        "date": "2025-08-10T20:10:22.241879",
+        "industrial_source": 0.5917836482505762,
+        "transportation_source": 0.24657652010440678,
+        "agricultural_source": 0.14794591206264404,
+        "total_source": 0.9863060804176271,
+        "seasonal_factor": 0.8267949192431122,
+        "growth_factor": 1.003
+      },
+      {
+        "date": "2025-08-11T20:10:22.241879",
+        "industrial_source": 0.5271241461093025,
+        "transportation_source": 0.21963506087887597,
+        "agricultural_source": 0.13178103652732562,
+        "total_source": 0.8785402435155039,
+        "seasonal_factor": 0.8267949192431122,
+        "growth_factor": 1.0031666666666668
+      },
+      {
+        "date": "2025-08-12T20:10:22.241879",
+        "industrial_source": 0.4645254280271197,
+        "transportation_source": 0.19355226167796655,
+        "agricultural_source": 0.11613135700677993,
+        "total_source": 0.7742090467118662,
+        "seasonal_factor": 0.8267949192431122,
+        "growth_factor": 1.0033333333333334
+      },
+      {
+        "date": "2025-08-13T20:10:22.241879",
+        "industrial_source": 0.5157244895864972,
+        "transportation_source": 0.2148852039943738,
+        "agricultural_source": 0.1289311223966243,
+        "total_source": 0.8595408159774952,
+        "seasonal_factor": 0.8267949192431122,
+        "growth_factor": 1.0035
+      },
+      {
+        "date": "2025-08-14T20:10:22.241879",
+        "industrial_source": 0.5934961037216768,
+        "transportation_source": 0.24729004321736536,
+        "agricultural_source": 0.1483740259304192,
+        "total_source": 0.9891601728694615,
+        "seasonal_factor": 0.8267949192431122,
+        "growth_factor": 1.0036666666666667
+      },
+      {
+        "date": "2025-08-15T20:10:22.241879",
+        "industrial_source": 0.5778823913130092,
+        "transportation_source": 0.24078432971375388,
+        "agricultural_source": 0.1444705978282523,
+        "total_source": 0.9631373188550155,
+        "seasonal_factor": 0.8267949192431122,
+        "growth_factor": 1.0038333333333334
+      },
+      {
+        "date": "2025-08-16T20:10:22.241879",
+        "industrial_source": 0.514935911411099,
+        "transportation_source": 0.21455662975462453,
+        "agricultural_source": 0.12873397785277474,
+        "total_source": 0.8582265190184981,
+        "seasonal_factor": 0.8267949192431122,
+        "growth_factor": 1.004
+      },
+      {
+        "date": "2025-08-17T20:10:22.241879",
+        "industrial_source": 0.5628706211289853,
+        "transportation_source": 0.23452942547041056,
+        "agricultural_source": 0.14071765528224633,
+        "total_source": 0.9381177018816422,
+        "seasonal_factor": 0.8267949192431122,
+        "growth_factor": 1.0041666666666667
+      },
+      {
+        "date": "2025-08-18T20:10:22.241879",
+        "industrial_source": 0.5817482710523357,
+        "transportation_source": 0.2423951129384732,
+        "agricultural_source": 0.14543706776308393,
+        "total_source": 0.9695804517538928,
+        "seasonal_factor": 0.8267949192431122,
+        "growth_factor": 1.0043333333333333
+      },
+      {
+        "date": "2025-08-19T20:10:22.241879",
+        "industrial_source": 0.4760685397349764,
+        "transportation_source": 0.19836189155624015,
+        "agricultural_source": 0.1190171349337441,
+        "total_source": 0.7934475662249606,
+        "seasonal_factor": 0.8267949192431122,
+        "growth_factor": 1.0045
+      },
+      {
+        "date": "2025-08-20T20:10:22.241879",
+        "industrial_source": 0.576991423543251,
+        "transportation_source": 0.24041309314302123,
+        "agricultural_source": 0.14424785588581274,
+        "total_source": 0.9616523725720849,
+        "seasonal_factor": 0.8267949192431122,
+        "growth_factor": 1.0046666666666666
+      },
+      {
+        "date": "2025-08-21T20:10:22.241879",
+        "industrial_source": 0.5740361513424775,
+        "transportation_source": 0.23918172972603227,
+        "agricultural_source": 0.14350903783561939,
+        "total_source": 0.9567269189041291,
+        "seasonal_factor": 0.8267949192431122,
+        "growth_factor": 1.0048333333333332
+      }
+    ],
+    "net_balance": [
+      {
+        "date": "2025-07-23T20:10:22.241879",
+        "net_balance": 37.200753764461,
+        "sink": 38.14262968266277,
+        "source": 0.9418759182017706,
+        "balance_status": "positive"
+      },
+      {
+        "date": "2025-07-24T20:10:22.241879",
+        "net_balance": 36.16514847033838,
+        "sink": 37.093208581975006,
+        "source": 0.9280601116366237,
+        "balance_status": "positive"
+      },
+      {
+        "date": "2025-07-25T20:10:22.241879",
+        "net_balance": 40.89982469854136,
+        "sink": 41.73012489992297,
+        "source": 0.8303002013816099,
+        "balance_status": "positive"
+      },
+      {
+        "date": "2025-07-26T20:10:22.241879",
+        "net_balance": 35.6076394580825,
+        "sink": 36.54622224930384,
+        "source": 0.938582791221335,
+        "balance_status": "positive"
+      },
+      {
+        "date": "2025-07-27T20:10:22.241879",
+        "net_balance": 39.82242627950202,
+        "sink": 40.7193435622397,
+        "source": 0.8969172827376808,
+        "balance_status": "positive"
+      },
+      {
+        "date": "2025-07-28T20:10:22.241879",
+        "net_balance": 36.16417923149331,
+        "sink": 37.16432981509062,
+        "source": 1.000150583597308,
+        "balance_status": "positive"
+      },
+      {
+        "date": "2025-07-29T20:10:22.241879",
+        "net_balance": 38.64708417053405,
+        "sink": 39.45331517710705,
+        "source": 0.8062310065729987,
+        "balance_status": "positive"
+      },
+      {
+        "date": "2025-07-30T20:10:22.241879",
+        "net_balance": 39.165409264835134,
+        "sink": 40.0513664829977,
+        "source": 0.885957218162569,
+        "balance_status": "positive"
+      },
+      {
+        "date": "2025-07-31T20:10:22.241879",
+        "net_balance": 39.81110072569784,
+        "sink": 40.683943806922095,
+        "source": 0.8728430812242539,
+        "balance_status": "positive"
+      },
+      {
+        "date": "2025-08-01T20:10:22.241879",
+        "net_balance": 43.16824151217079,
+        "sink": 44.06128774466628,
+        "source": 0.8930462324954929,
+        "balance_status": "positive"
+      },
+      {
+        "date": "2025-08-02T20:10:22.241879",
+        "net_balance": 40.82126016290622,
+        "sink": 41.75008328747074,
+        "source": 0.9288231245645135,
+        "balance_status": "positive"
+      },
+      {
+        "date": "2025-08-03T20:10:22.241879",
+        "net_balance": 40.929762098752185,
+        "sink": 41.96594908244431,
+        "source": 1.0361869836921234,
+        "balance_status": "positive"
+      },
+      {
+        "date": "2025-08-04T20:10:22.241879",
+        "net_balance": 42.57557207891066,
+        "sink": 43.44509115776651,
+        "source": 0.8695190788558517,
+        "balance_status": "positive"
+      },
+      {
+        "date": "2025-08-05T20:10:22.241879",
+        "net_balance": 38.76488671734155,
+        "sink": 39.71117313311484,
+        "source": 0.9462864157732914,
+        "balance_status": "positive"
+      },
+      {
+        "date": "2025-08-06T20:10:22.241879",
+        "net_balance": 42.02820879979565,
+        "sink": 42.89555915918248,
+        "source": 0.8673503593868304,
+        "balance_status": "positive"
+      },
+      {
+        "date": "2025-08-07T20:10:22.241879",
+        "net_balance": 40.9683135784505,
+        "sink": 41.77453928483185,
+        "source": 0.8062257063813562,
+        "balance_status": "positive"
+      },
+      {
+        "date": "2025-08-08T20:10:22.241879",
+        "net_balance": 41.59012577209673,
+        "sink": 42.53685980678036,
+        "source": 0.946734034683633,
+        "balance_status": "positive"
+      },
+      {
+        "date": "2025-08-09T20:10:22.241879",
+        "net_balance": 36.822276054088164,
+        "sink": 37.67306862880413,
+        "source": 0.8507925747159707,
+        "balance_status": "positive"
+      },
+      {
+        "date": "2025-08-10T20:10:22.241879",
+        "net_balance": 42.9413678825121,
+        "sink": 43.927673962929724,
+        "source": 0.9863060804176271,
+        "balance_status": "positive"
+      },
+      {
+        "date": "2025-08-11T20:10:22.241879",
+        "net_balance": 45.3688299934511,
+        "sink": 46.2473702369666,
+        "source": 0.8785402435155039,
+        "balance_status": "positive"
+      },
+      {
+        "date": "2025-08-12T20:10:22.241879",
+        "net_balance": 43.822818411513666,
+        "sink": 44.59702745822553,
+        "source": 0.7742090467118662,
+        "balance_status": "positive"
+      },
+      {
+        "date": "2025-08-13T20:10:22.241879",
+        "net_balance": 42.678650318556556,
+        "sink": 43.53819113453405,
+        "source": 0.8595408159774952,
+        "balance_status": "positive"
+      },
+      {
+        "date": "2025-08-14T20:10:22.241879",
+        "net_balance": 41.028217028408235,
+        "sink": 42.0173772012777,
+        "source": 0.9891601728694615,
+        "balance_status": "positive"
+      },
+      {
+        "date": "2025-08-15T20:10:22.241879",
+        "net_balance": 46.745702416035584,
+        "sink": 47.7088397348906,
+        "source": 0.9631373188550155,
+        "balance_status": "positive"
+      },
+      {
+        "date": "2025-08-16T20:10:22.241879",
+        "net_balance": 44.33709043548109,
+        "sink": 45.19531695449959,
+        "source": 0.8582265190184981,
+        "balance_status": "positive"
+      },
+      {
+        "date": "2025-08-17T20:10:22.241879",
+        "net_balance": 45.57105382538139,
+        "sink": 46.509171527263035,
+        "source": 0.9381177018816422,
+        "balance_status": "positive"
+      },
+      {
+        "date": "2025-08-18T20:10:22.241879",
+        "net_balance": 43.610764597184236,
+        "sink": 44.58034504893813,
+        "source": 0.9695804517538928,
+        "balance_status": "positive"
+      },
+      {
+        "date": "2025-08-19T20:10:22.241879",
+        "net_balance": 39.82892472776554,
+        "sink": 40.6223722939905,
+        "source": 0.7934475662249606,
+        "balance_status": "positive"
+      },
+      {
+        "date": "2025-08-20T20:10:22.241879",
+        "net_balance": 42.02868463812471,
+        "sink": 42.99033701069679,
+        "source": 0.9616523725720849,
+        "balance_status": "positive"
+      },
+      {
+        "date": "2025-08-21T20:10:22.241879",
+        "net_balance": 43.316750520207215,
+        "sink": 44.273477439111346,
+        "source": 0.9567269189041291,
+        "balance_status": "positive"
+      }
+    ],
+    "sequestration_potential": {
+      "total": 26040000.0,
+      "forest": 15000000.0,
+      "grassland": 7200000.0,
+      "wetland": 3840000.0,
+      "recommendations": [
+        "增加森林覆盖率，实施退耕还林政策",
+        "改善草地管理，实施轮牧制度",
+        "保护湿地生态系统，减少开发活动"
+      ],
+      "achievable_rate": 0.7,
+      "time_horizon": "5-10年"
+    },
+    "temporal_trends": {
+      "trend": "improving",
+      "description": "碳平衡状况正在改善",
+      "slope": 0.22530391117311174,
+      "mean_balance": 41.08103558775398,
+      "std_balance": 2.864515361306778,
+      "positive_days": 30,
+      "negative_days": 0,
+      "total_days": 30,
+      "improvement_rate": 1.0
+    }
+  }
+}
