@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7433a3b1c13518c1d001d46c72fb2b12 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 150px; height: 90px; 
+                        background-color: white; border:2px solid grey; z-index:9999; 
+                        font-size:14px; padding: 10px">
+            <p><b>碳循环图例</b></p>
+            <p><span style="color:green;">●</span> 碳汇点</p>
+            <p><span style="color:red;">●</span> 碳源点</p>
+            <p><span style="color:blue;">■</span> 地区边界</p>
+            </div>
+            
+    
+            <div class="folium-map" id="map_7433a3b1c13518c1d001d46c72fb2b12" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7433a3b1c13518c1d001d46c72fb2b12 = L.map(
+                "map_7433a3b1c13518c1d001d46c72fb2b12",
+                {
+                    center: [31.2304, 121.4737],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_7433a3b1c13518c1d001d46c72fb2b12);
+
+            
+
+        
+    
+            var tile_layer_d7ca1cbc61182c93a20725bed0cd8a9e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_d7ca1cbc61182c93a20725bed0cd8a9e.addTo(map_7433a3b1c13518c1d001d46c72fb2b12);
+        
+    
+            var circle_marker_e8fa67a3a896528b9acb53085e4b2541 = L.circleMarker(
+                [31.16119804173887, 120.74248811794831],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7433a3b1c13518c1d001d46c72fb2b12);
+        
+    
+        var popup_d2fa02a609f9add0e9e5d12b67027936 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c308d222a53186546bbaa507049efb5 = $(`<div id="html_5c308d222a53186546bbaa507049efb5" style="width: 100.0%; height: 100.0%;">碳汇: 40.53万吨</div>`)[0];
+                popup_d2fa02a609f9add0e9e5d12b67027936.setContent(html_5c308d222a53186546bbaa507049efb5);
+            
+        
+
+        circle_marker_e8fa67a3a896528b9acb53085e4b2541.bindPopup(popup_d2fa02a609f9add0e9e5d12b67027936)
+        ;
+
+        
+    
+    
+            var circle_marker_7e6fff95b0c187c641e5ecfaa031b198 = L.circleMarker(
+                [31.866939368506443, 120.71757115226167],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7433a3b1c13518c1d001d46c72fb2b12);
+        
+    
+        var popup_8bf9f993d58caf95839c1cdf0c4cfeb6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a74200d5ba9aaa1d67756b5582b059cf = $(`<div id="html_a74200d5ba9aaa1d67756b5582b059cf" style="width: 100.0%; height: 100.0%;">碳汇: 42.40万吨</div>`)[0];
+                popup_8bf9f993d58caf95839c1cdf0c4cfeb6.setContent(html_a74200d5ba9aaa1d67756b5582b059cf);
+            
+        
+
+        circle_marker_7e6fff95b0c187c641e5ecfaa031b198.bindPopup(popup_8bf9f993d58caf95839c1cdf0c4cfeb6)
+        ;
+
+        
+    
+    
+            var circle_marker_6efae95aa4782b393942a292c5b16e29 = L.circleMarker(
+                [31.505052264757868, 121.23813252216105],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_7433a3b1c13518c1d001d46c72fb2b12);
+        
+    
+        var popup_05f41730441802a381a8c0e4d518347b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf623972e49747f0202dcef48118c211 = $(`<div id="html_bf623972e49747f0202dcef48118c211" style="width: 100.0%; height: 100.0%;">碳源: 0.93万吨</div>`)[0];
+                popup_05f41730441802a381a8c0e4d518347b.setContent(html_bf623972e49747f0202dcef48118c211);
+            
+        
+
+        circle_marker_6efae95aa4782b393942a292c5b16e29.bindPopup(popup_05f41730441802a381a8c0e4d518347b)
+        ;
+
+        
+    
+    
+            var circle_marker_fc69abfd7cb85cb20098b08018a50bcd = L.circleMarker(
+                [31.908739522782138, 121.10782628333752],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_7433a3b1c13518c1d001d46c72fb2b12);
+        
+    
+        var popup_0ac7fff19d53038f07d6cc144a06b628 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a93e2981a107bab28e69b6e680357c0a = $(`<div id="html_a93e2981a107bab28e69b6e680357c0a" style="width: 100.0%; height: 100.0%;">碳源: 0.96万吨</div>`)[0];
+                popup_0ac7fff19d53038f07d6cc144a06b628.setContent(html_a93e2981a107bab28e69b6e680357c0a);
+            
+        
+
+        circle_marker_fc69abfd7cb85cb20098b08018a50bcd.bindPopup(popup_0ac7fff19d53038f07d6cc144a06b628)
+        ;
+
+        
+    
+</script>
+</html>

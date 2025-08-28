@@ -1,0 +1,135 @@
+{
+  "region": "华东",
+  "analysis_date": "2025-08-22T22:13:04.996891",
+  "summary": {
+    "total_days": 2,
+    "average_sink": 14801.842354754303,
+    "average_source": 2654.515193754097,
+    "net_balance_trend": "improving"
+  },
+  "detailed_data": {
+    "carbon_sink": [
+      {
+        "date": "2025-08-20T22:13:04.970891",
+        "total_sink": 13681.303988671058,
+        "forest_sink": 8342.258529677474,
+        "grassland_sink": 2135.6181835974335,
+        "wetland_sink": 3203.42727539615,
+        "seasonal_factor": 1.15,
+        "random_factor": 0.9672183802524609
+      },
+      {
+        "date": "2025-08-21T22:13:04.970891",
+        "total_sink": 15922.380720837547,
+        "forest_sink": 9708.768732218019,
+        "grassland_sink": 2485.444795447813,
+        "wetland_sink": 3728.1671931717187,
+        "seasonal_factor": 1.15,
+        "random_factor": 1.125654345764408
+      }
+    ],
+    "carbon_source": [
+      {
+        "date": "2025-08-20T22:13:04.970891",
+        "total_source": 2417.3119741894097,
+        "industrial_source": 1959.982681775197,
+        "transportation_source": 326.66378029586616,
+        "agricultural_source": 130.66551211834647,
+        "seasonal_factor": 0.9,
+        "random_factor": 1.0082215441230438
+      },
+      {
+        "date": "2025-08-21T22:13:04.970891",
+        "total_source": 2891.7184133187834,
+        "industrial_source": 2344.636551339554,
+        "transportation_source": 390.77275855659235,
+        "agricultural_source": 156.30910342263692,
+        "seasonal_factor": 0.9,
+        "random_factor": 1.206088760977137
+      }
+    ],
+    "net_balance": [
+      {
+        "date": "2025-08-20T22:13:04.970891",
+        "net_balance": 11263.992014481648,
+        "sink": 13681.303988671058,
+        "source": 2417.3119741894097,
+        "balance_status": "positive"
+      },
+      {
+        "date": "2025-08-21T22:13:04.970891",
+        "net_balance": 13030.662307518764,
+        "sink": 15922.380720837547,
+        "source": 2891.7184133187834,
+        "balance_status": "positive"
+      }
+    ],
+    "sequestration_potential": {
+      "total": 28920000.0,
+      "forest": 15000000.0,
+      "grassland": 7200000.0,
+      "wetland": 3840000.0,
+      "urban_green": 2880000.0,
+      "measures": [
+        {
+          "name": "森林碳汇提升",
+          "potential": 15000000.0,
+          "cost_per_ton": 150,
+          "total_cost": 2250000000.0,
+          "description": "通过退耕还林、人工造林等措施增加森林覆盖率",
+          "implementation_time": "3-5年",
+          "priority": "高"
+        },
+        {
+          "name": "草地碳汇改善",
+          "potential": 7200000.0,
+          "cost_per_ton": 80,
+          "total_cost": 576000000.0,
+          "description": "改善草地管理，实施轮牧制度，恢复退化草地",
+          "implementation_time": "2-3年",
+          "priority": "中"
+        },
+        {
+          "name": "湿地保护修复",
+          "potential": 3840000.0,
+          "cost_per_ton": 200,
+          "total_cost": 768000000.0,
+          "description": "保护现有湿地，修复退化湿地生态系统",
+          "implementation_time": "5-8年",
+          "priority": "高"
+        },
+        {
+          "name": "城市绿化提升",
+          "potential": 2880000.0,
+          "cost_per_ton": 300,
+          "total_cost": 864000000.0,
+          "description": "增加城市绿地面积，建设绿色基础设施",
+          "implementation_time": "1-3年",
+          "priority": "中"
+        }
+      ],
+      "recommendations": [
+        "增加森林覆盖率，实施退耕还林政策",
+        "改善草地管理，实施轮牧制度",
+        "保护湿地生态系统，减少开发活动",
+        "加强城市绿化建设，推广绿色建筑"
+      ],
+      "achievable_rate": 0.7,
+      "time_horizon": "5-10年",
+      "total_cost": 4458000000.0,
+      "cost_effectiveness": 154.15,
+      "roi": 0.32
+    },
+    "temporal_trends": {
+      "trend": "improving",
+      "description": "碳平衡状况正在改善",
+      "slope": 1766.6702930371132,
+      "mean_balance": 12147.327161000205,
+      "std_balance": 883.3351465185578,
+      "positive_days": 2,
+      "negative_days": 0,
+      "total_days": 2,
+      "improvement_rate": 1.0
+    }
+  }
+}

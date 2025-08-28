@@ -1,0 +1,160 @@
+{
+  "region": "华东",
+  "analysis_date": "2025-08-22T22:06:08.640541",
+  "summary": {
+    "total_days": 3,
+    "average_sink": 12217.51545674716,
+    "average_source": 2631.549333499785,
+    "net_balance_trend": "improving"
+  },
+  "detailed_data": {
+    "carbon_sink": [
+      {
+        "date": "2025-08-19T22:06:08.624543",
+        "total_sink": 10776.799512519712,
+        "forest_sink": 6571.219214951045,
+        "grassland_sink": 1682.2321190274674,
+        "wetland_sink": 2523.3481785412005,
+        "seasonal_factor": 1.15,
+        "random_factor": 0.7618804886899762
+      },
+      {
+        "date": "2025-08-20T22:06:08.624543",
+        "total_sink": 14794.202439736911,
+        "forest_sink": 9020.855146181046,
+        "grassland_sink": 2309.3389174223475,
+        "wetland_sink": 3464.008376133521,
+        "seasonal_factor": 1.15,
+        "random_factor": 1.045896248832585
+      },
+      {
+        "date": "2025-08-21T22:06:08.624543",
+        "total_sink": 11081.544417984856,
+        "forest_sink": 6757.03927925906,
+        "grassland_sink": 1729.8020554903194,
+        "wetland_sink": 2594.7030832354785,
+        "seasonal_factor": 1.15,
+        "random_factor": 0.7834248439720649
+      }
+    ],
+    "carbon_source": [
+      {
+        "date": "2025-08-19T22:06:08.624543",
+        "total_source": 2604.591523156035,
+        "industrial_source": 2111.8309647211095,
+        "transportation_source": 351.97182745351824,
+        "agricultural_source": 140.7887309814073,
+        "seasonal_factor": 0.9,
+        "random_factor": 1.0863328007824637
+      },
+      {
+        "date": "2025-08-20T22:06:08.624543",
+        "total_source": 2525.822214585387,
+        "industrial_source": 2047.9639577719356,
+        "transportation_source": 341.3273262953226,
+        "agricultural_source": 136.53093051812903,
+        "seasonal_factor": 0.9,
+        "random_factor": 1.0534794021460574
+      },
+      {
+        "date": "2025-08-21T22:06:08.624543",
+        "total_source": 2764.234262757933,
+        "industrial_source": 2241.2710238577833,
+        "transportation_source": 373.54517064296385,
+        "agricultural_source": 149.41806825718555,
+        "seasonal_factor": 0.9,
+        "random_factor": 1.152917193342481
+      }
+    ],
+    "net_balance": [
+      {
+        "date": "2025-08-19T22:06:08.624543",
+        "net_balance": 8172.207989363677,
+        "sink": 10776.799512519712,
+        "source": 2604.591523156035,
+        "balance_status": "positive"
+      },
+      {
+        "date": "2025-08-20T22:06:08.624543",
+        "net_balance": 12268.380225151524,
+        "sink": 14794.202439736911,
+        "source": 2525.822214585387,
+        "balance_status": "positive"
+      },
+      {
+        "date": "2025-08-21T22:06:08.624543",
+        "net_balance": 8317.310155226924,
+        "sink": 11081.544417984856,
+        "source": 2764.234262757933,
+        "balance_status": "positive"
+      }
+    ],
+    "sequestration_potential": {
+      "total": 28920000.0,
+      "forest": 15000000.0,
+      "grassland": 7200000.0,
+      "wetland": 3840000.0,
+      "urban_green": 2880000.0,
+      "measures": [
+        {
+          "name": "森林碳汇提升",
+          "potential": 15000000.0,
+          "cost_per_ton": 150,
+          "total_cost": 2250000000.0,
+          "description": "通过退耕还林、人工造林等措施增加森林覆盖率",
+          "implementation_time": "3-5年",
+          "priority": "高"
+        },
+        {
+          "name": "草地碳汇改善",
+          "potential": 7200000.0,
+          "cost_per_ton": 80,
+          "total_cost": 576000000.0,
+          "description": "改善草地管理，实施轮牧制度，恢复退化草地",
+          "implementation_time": "2-3年",
+          "priority": "中"
+        },
+        {
+          "name": "湿地保护修复",
+          "potential": 3840000.0,
+          "cost_per_ton": 200,
+          "total_cost": 768000000.0,
+          "description": "保护现有湿地，修复退化湿地生态系统",
+          "implementation_time": "5-8年",
+          "priority": "高"
+        },
+        {
+          "name": "城市绿化提升",
+          "potential": 2880000.0,
+          "cost_per_ton": 300,
+          "total_cost": 864000000.0,
+          "description": "增加城市绿地面积，建设绿色基础设施",
+          "implementation_time": "1-3年",
+          "priority": "中"
+        }
+      ],
+      "recommendations": [
+        "增加森林覆盖率，实施退耕还林政策",
+        "改善草地管理，实施轮牧制度",
+        "保护湿地生态系统，减少开发活动",
+        "加强城市绿化建设，推广绿色建筑"
+      ],
+      "achievable_rate": 0.7,
+      "time_horizon": "5-10年",
+      "total_cost": 4458000000.0,
+      "cost_effectiveness": 154.15,
+      "roi": 0.32
+    },
+    "temporal_trends": {
+      "trend": "improving",
+      "description": "碳平衡状况正在改善",
+      "slope": 72.55108293162297,
+      "mean_balance": 9585.966123247375,
+      "std_balance": 1897.6780057402143,
+      "positive_days": 3,
+      "negative_days": 0,
+      "total_days": 3,
+      "improvement_rate": 1.0
+    }
+  }
+}

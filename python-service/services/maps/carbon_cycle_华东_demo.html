@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>华东地区碳循环分析地图</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+        }
+        #map {
+            height: 500px;
+            width: 100%;
+        }
+        .info-panel {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            z-index: 1000;
+            max-width: 300px;
+        }
+        .legend {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            background: white;
+            padding: 10px;
+            border-radius: 6px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            z-index: 1000;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin: 5px 0;
+        }
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            margin-right: 8px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    
+    <div class="info-panel">
+        <h3>华东地区碳循环分析</h3>
+        <p><strong>地区：</strong>华东</p>
+        <p><strong>分析时间：</strong>2024年</p>
+        <p><strong>碳汇总量：</strong>1250.5万吨</p>
+        <p><strong>碳源总量：</strong>980.3万吨</p>
+        <p><strong>净排放：</strong>-270.2万吨</p>
+        <p><strong>状态：</strong><span style="color: green;">碳汇盈余</span></p>
+    </div>
+    
+    <div class="legend">
+        <h4>图例</h4>
+        <div class="legend-item">
+            <div class="legend-color" style="background: green;"></div>
+            <span>碳汇区域</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background: red;"></div>
+            <span>碳源区域</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background: blue;"></div>
+            <span>监测站点</span>
+        </div>
+    </div>
+
+    <script>
+        // 初始化地图
+        const map = L.map('map').setView([31.2304, 121.4737], 6);
+        
+        // 添加地图图层
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+        
+        // 华东地区边界（简化）
+        const eastChinaBounds = [
+            [27.0, 115.0],
+            [35.0, 125.0]
+        ];
+        
+        // 添加地区边界
+        L.rectangle(eastChinaBounds, {
+            color: '#35c9ff',
+            weight: 2,
+            fillColor: '#35c9ff',
+            fillOpacity: 0.1
+        }).addTo(map);
+        
+        // 碳汇区域
+        const carbonSinkAreas = [
+            {lat: 30.5928, lng: 114.3055, name: '鄱阳湖湿地', value: 120.5},
+            {lat: 29.8683, lng: 121.5440, name: '舟山群岛', value: 85.2},
+            {lat: 32.0603, lng: 118.7969, name: '南京紫金山', value: 95.8},
+            {lat: 30.2741, lng: 120.1551, name: '杭州西湖', value: 78.3}
+        ];
+        
+        carbonSinkAreas.forEach(area => {
+            L.circleMarker([area.lat, area.lng], {
+                radius: 12,
+                fillColor: 'green',
+                color: 'darkgreen',
+                weight: 2,
+                fillOpacity: 0.7
+            }).addTo(map).bindPopup(`
+                <strong>${area.name}</strong><br>
+                碳汇量: ${area.value}万吨/年<br>
+                类型: 湿地/森林
+            `);
+        });
+        
+        // 碳源区域
+        const carbonSourceAreas = [
+            {lat: 31.2304, lng: 121.4737, name: '上海工业区', value: 180.5},
+            {lat: 32.0603, lng: 118.7969, name: '南京工业区', value: 145.2},
+            {lat: 30.2741, lng: 120.1551, name: '杭州工业区', value: 125.8},
+            {lat: 29.8683, lng: 121.5440, name: '宁波港区', value: 98.7}
+        ];
+        
+        carbonSourceAreas.forEach(area => {
+            L.circleMarker([area.lat, area.lng], {
+                radius: 12,
+                fillColor: 'red',
+                color: 'darkred',
+                weight: 2,
+                fillOpacity: 0.7
+            }).addTo(map).bindPopup(`
+                <strong>${area.name}</strong><br>
+                碳排放: ${area.value}万吨/年<br>
+                类型: 工业/交通
+            `);
+        });
+        
+        // 监测站点
+        const monitoringStations = [
+            {lat: 31.2304, lng: 121.4737, name: '上海监测站'},
+            {lat: 32.0603, lng: 118.7969, name: '南京监测站'},
+            {lat: 30.2741, lng: 120.1551, name: '杭州监测站'},
+            {lat: 29.8683, lng: 121.5440, name: '宁波监测站'},
+            {lat: 30.5928, lng: 114.3055, name: '武汉监测站'}
+        ];
+        
+        monitoringStations.forEach(station => {
+            L.circleMarker([station.lat, station.lng], {
+                radius: 8,
+                fillColor: 'blue',
+                color: 'darkblue',
+                weight: 2,
+                fillOpacity: 0.8
+            }).addTo(map).bindPopup(`
+                <strong>${station.name}</strong><br>
+                类型: 环境监测站<br>
+                状态: 正常运行
+            `);
+        });
+        
+        // 添加标题
+        L.control.attribution({
+            prefix: '华东地区碳循环分析地图 - 碳排放可视化系统'
+        }).addTo(map);
+        
+        console.log('碳循环地图加载完成');
+    </script>
+</body>
+</html> 

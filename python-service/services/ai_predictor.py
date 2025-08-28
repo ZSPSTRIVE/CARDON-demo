@@ -45,7 +45,7 @@ class AIPredictor:
         # 确保模型目录存在
         os.makedirs(self.model_dir, exist_ok=True)
     
-    async def initialize_models(self):
+    def initialize_models(self):
         """初始化AI模型"""
         try:
             logger.info("开始初始化AI预测模型...")
@@ -90,7 +90,7 @@ class AIPredictor:
         """检查模型是否准备就绪"""
         return self.is_initialized and len(self.models) > 0
     
-    async def predict_emissions(self, industry: str, resource_type: str, 
+    def predict_emissions(self, industry: str, resource_type: str, 
                                time_period: int, features: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
         """预测碳排放"""
         try:
@@ -140,4 +140,5 @@ class AIPredictor:
             
         except Exception as e:
             logger.error(f"碳排放预测失败: {e}")
-            raise 
+            raise
+    

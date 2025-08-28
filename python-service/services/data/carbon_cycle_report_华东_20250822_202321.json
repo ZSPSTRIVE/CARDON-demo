@@ -1,0 +1,113 @@
+{
+  "region": "华东",
+  "analysis_date": "2025-08-22T20:23:21.352995",
+  "summary": {
+    "total_days": 3,
+    "average_sink": 41.87562785979964,
+    "average_source": 0.9212683895881212,
+    "net_balance_trend": "improving"
+  },
+  "detailed_data": {
+    "carbon_sink": [
+      {
+        "date": "2025-08-19T20:23:21.342995",
+        "forest_sink": 24.711411866153902,
+        "grassland_sink": 6.326121437735399,
+        "wetland_sink": 9.489182156603096,
+        "total_sink": 40.5267154604924,
+        "seasonal_factor": 1.2598076211353315,
+        "growth_factor": 1.0
+      },
+      {
+        "date": "2025-08-20T20:23:21.342995",
+        "forest_sink": 26.039307131687384,
+        "grassland_sink": 6.666062625711971,
+        "wetland_sink": 9.999093938567956,
+        "total_sink": 42.70446369596731,
+        "seasonal_factor": 1.2598076211353315,
+        "growth_factor": 1.0033333333333334
+      },
+      {
+        "date": "2025-08-21T20:23:21.342995",
+        "forest_sink": 25.851039282280016,
+        "grassland_sink": 6.617866056263684,
+        "wetland_sink": 9.926799084395524,
+        "total_sink": 42.39570442293922,
+        "seasonal_factor": 1.2598076211353315,
+        "growth_factor": 1.0066666666666666
+      }
+    ],
+    "carbon_source": [
+      {
+        "date": "2025-08-19T20:23:21.342995",
+        "industrial_source": 0.5597491917894555,
+        "transportation_source": 0.2332288299122731,
+        "agricultural_source": 0.13993729794736387,
+        "total_source": 0.9329153196490924,
+        "seasonal_factor": 0.8267949192431122,
+        "growth_factor": 1.0
+      },
+      {
+        "date": "2025-08-20T20:23:21.342995",
+        "industrial_source": 0.5215097245145575,
+        "transportation_source": 0.21729571854773225,
+        "agricultural_source": 0.13037743112863937,
+        "total_source": 0.869182874190929,
+        "seasonal_factor": 0.8267949192431122,
+        "growth_factor": 1.0016666666666667
+      },
+      {
+        "date": "2025-08-21T20:23:21.342995",
+        "industrial_source": 0.5770241849546052,
+        "transportation_source": 0.2404267437310855,
+        "agricultural_source": 0.1442560462386513,
+        "total_source": 0.961706974924342,
+        "seasonal_factor": 0.8267949192431122,
+        "growth_factor": 1.0033333333333334
+      }
+    ],
+    "net_balance": [
+      {
+        "date": "2025-08-19T20:23:21.342995",
+        "net_balance": 39.59380014084331,
+        "sink": 40.5267154604924,
+        "source": 0.9329153196490924,
+        "balance_status": "positive"
+      },
+      {
+        "date": "2025-08-20T20:23:21.342995",
+        "net_balance": 41.83528082177639,
+        "sink": 42.70446369596731,
+        "source": 0.869182874190929,
+        "balance_status": "positive"
+      },
+      {
+        "date": "2025-08-21T20:23:21.342995",
+        "net_balance": 41.43399744801488,
+        "sink": 42.39570442293922,
+        "source": 0.961706974924342,
+        "balance_status": "positive"
+      }
+    ],
+    "sequestration_potential": {
+      "forest_potential": 2999.999999999999,
+      "grassland_potential": 2880.0,
+      "total_potential": 5879.999999999999,
+      "current_forest_coverage": 0.25,
+      "current_grassland_coverage": 0.2,
+      "max_forest_coverage": 0.35,
+      "max_grassland_coverage": 0.5
+    },
+    "temporal_trends": {
+      "trend": "improving",
+      "description": "碳平衡状况正在改善",
+      "slope": 0.9200986535857857,
+      "mean_balance": 40.95435947021152,
+      "std_balance": 0.9759092693696904,
+      "positive_days": 3,
+      "negative_days": 0,
+      "total_days": 3,
+      "improvement_rate": 1.0
+    }
+  }
+}

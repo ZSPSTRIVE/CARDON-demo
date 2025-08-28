@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d8c508483042ed88fd8758ce8f29b099 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 220px; height: 220px; 
+                        background-color: white; border:2px solid grey; z-index:9999; 
+                        font-size:12px; padding: 10px; border-radius: 5px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+            <h4 style="margin: 0 0 10px 0; color: #333;">华东碳循环图例</h4>
+            <p style="margin: 2px 0;"><span style="color:green; font-size: 16px;">●</span> 碳汇区域 (平均: 14157.9万吨/天)</p>
+            <p style="margin: 2px 0;"><span style="color:red; font-size: 16px;">●</span> 碳源区域 (平均: 2184.7万吨/天)</p>
+            <p style="margin: 2px 0;"><span style="color:blue; font-size: 16px;">■</span> 地区边界</p>
+            <p style="margin: 2px 0;"><span style="color:green; font-size: 16px;">✓</span> 碳汇>碳源</p>
+            <p style="margin: 2px 0;"><span style="color:red; font-size: 16px;">✗</span> 碳源>碳汇</p>
+            <p style="margin: 5px 0; font-size: 10px; color: #666;">点击标记查看详细信息</p>
+            </div>
+            
+    
+            <div class="folium-map" id="map_d8c508483042ed88fd8758ce8f29b099" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d8c508483042ed88fd8758ce8f29b099 = L.map(
+                "map_d8c508483042ed88fd8758ce8f29b099",
+                {
+                    center: [31.2304, 121.4737],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_d8c508483042ed88fd8758ce8f29b099);
+
+            
+
+        
+    
+            var tile_layer_41f12cee7cd13c2fde9414557efd4dc7 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_41f12cee7cd13c2fde9414557efd4dc7.addTo(map_d8c508483042ed88fd8758ce8f29b099);
+        
+    
+        function geo_json_45a1ca615e6a886ad36c04e94ca514ac_styler(feature) {
+            switch(feature.properties.name) {
+                default:
+                    return {"color": "#35c9ff", "fillColor": "#35c9ff", "fillOpacity": 0.1, "weight": 2};
+            }
+        }
+
+        function geo_json_45a1ca615e6a886ad36c04e94ca514ac_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_45a1ca615e6a886ad36c04e94ca514ac = L.geoJson(null, {
+                onEachFeature: geo_json_45a1ca615e6a886ad36c04e94ca514ac_onEachFeature,
+            
+                style: geo_json_45a1ca615e6a886ad36c04e94ca514ac_styler,
+        });
+
+        function geo_json_45a1ca615e6a886ad36c04e94ca514ac_add (data) {
+            geo_json_45a1ca615e6a886ad36c04e94ca514ac
+                .addData(data);
+        }
+            geo_json_45a1ca615e6a886ad36c04e94ca514ac_add({"features": [{"geometry": {"coordinates": [[[115.0, 25.0], [125.0, 25.0], [125.0, 35.0], [115.0, 35.0], [115.0, 25.0]]], "type": "Polygon"}, "properties": {"name": "\u534e\u4e1c"}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_45a1ca615e6a886ad36c04e94ca514ac.addTo(map_d8c508483042ed88fd8758ce8f29b099);
+        
+    
+            var circle_marker_576175212c08b9949c30b5ee0006d5bd = L.circleMarker(
+                [31.904975371445076, 121.46667498462007],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 2}
+            ).addTo(map_d8c508483042ed88fd8758ce8f29b099);
+        
+    
+        var popup_7c5680357323f620243e75c1ef9bb987 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_da47b45ccf8f5356aa8cea0ffbceb5fc = $(`<div id="html_da47b45ccf8f5356aa8cea0ffbceb5fc" style="width: 100.0%; height: 100.0%;">                 <div style="width: 200px;">                     <h4>碳汇区域 1</h4>                     <p><strong>平均碳汇:</strong> 14157.89万吨/天</p>                     <p><strong>森林碳汇:</strong> 8654.65万吨</p>                     <p><strong>草地碳汇:</strong> 2215.59万吨</p>                     <p><strong>湿地碳汇:</strong> 3323.39万吨</p>                 </div>                 </div>`)[0];
+                popup_7c5680357323f620243e75c1ef9bb987.setContent(html_da47b45ccf8f5356aa8cea0ffbceb5fc);
+            
+        
+
+        circle_marker_576175212c08b9949c30b5ee0006d5bd.bindPopup(popup_7c5680357323f620243e75c1ef9bb987)
+        ;
+
+        
+    
+    
+            var circle_marker_55e011a593921403af22dc9c17d60e0e = L.circleMarker(
+                [31.332373247408384, 121.15528435049163],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 2}
+            ).addTo(map_d8c508483042ed88fd8758ce8f29b099);
+        
+    
+        var popup_6486084a538abf0828f1d851b574f0e7 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_2357a0b9f34a4e88d6439c3fa37bf246 = $(`<div id="html_2357a0b9f34a4e88d6439c3fa37bf246" style="width: 100.0%; height: 100.0%;">                 <div style="width: 200px;">                     <h4>碳汇区域 2</h4>                     <p><strong>平均碳汇:</strong> 14157.89万吨/天</p>                     <p><strong>森林碳汇:</strong> 8654.65万吨</p>                     <p><strong>草地碳汇:</strong> 2215.59万吨</p>                     <p><strong>湿地碳汇:</strong> 3323.39万吨</p>                 </div>                 </div>`)[0];
+                popup_6486084a538abf0828f1d851b574f0e7.setContent(html_2357a0b9f34a4e88d6439c3fa37bf246);
+            
+        
+
+        circle_marker_55e011a593921403af22dc9c17d60e0e.bindPopup(popup_6486084a538abf0828f1d851b574f0e7)
+        ;
+
+        
+    
+    
+            var circle_marker_3cd4496c098cb5eab4982e40c8bff42a = L.circleMarker(
+                [30.92375708407366, 121.92344891774779],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 2}
+            ).addTo(map_d8c508483042ed88fd8758ce8f29b099);
+        
+    
+        var popup_8af861bc6f7db8a91c9344e2a02ec44f = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_734b2e77c67c416c290f3c26b45aeec9 = $(`<div id="html_734b2e77c67c416c290f3c26b45aeec9" style="width: 100.0%; height: 100.0%;">                 <div style="width: 200px;">                     <h4>碳汇区域 3</h4>                     <p><strong>平均碳汇:</strong> 14157.89万吨/天</p>                     <p><strong>森林碳汇:</strong> 8654.65万吨</p>                     <p><strong>草地碳汇:</strong> 2215.59万吨</p>                     <p><strong>湿地碳汇:</strong> 3323.39万吨</p>                 </div>                 </div>`)[0];
+                popup_8af861bc6f7db8a91c9344e2a02ec44f.setContent(html_734b2e77c67c416c290f3c26b45aeec9);
+            
+        
+
+        circle_marker_3cd4496c098cb5eab4982e40c8bff42a.bindPopup(popup_8af861bc6f7db8a91c9344e2a02ec44f)
+        ;
+
+        
+    
+    
+            var circle_marker_9ae09faf0a560fb834e570fe236580ad = L.circleMarker(
+                [31.241320824458793, 120.67024677210223],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 2}
+            ).addTo(map_d8c508483042ed88fd8758ce8f29b099);
+        
+    
+        var popup_f836462851621b188c8774f9e9b99360 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_14819a052b87b2b36149b24c8ef1a6ba = $(`<div id="html_14819a052b87b2b36149b24c8ef1a6ba" style="width: 100.0%; height: 100.0%;">                 <div style="width: 200px;">                     <h4>碳汇区域 4</h4>                     <p><strong>平均碳汇:</strong> 14157.89万吨/天</p>                     <p><strong>森林碳汇:</strong> 8654.65万吨</p>                     <p><strong>草地碳汇:</strong> 2215.59万吨</p>                     <p><strong>湿地碳汇:</strong> 3323.39万吨</p>                 </div>                 </div>`)[0];
+                popup_f836462851621b188c8774f9e9b99360.setContent(html_14819a052b87b2b36149b24c8ef1a6ba);
+            
+        
+
+        circle_marker_9ae09faf0a560fb834e570fe236580ad.bindPopup(popup_f836462851621b188c8774f9e9b99360)
+        ;
+
+        
+    
+    
+            var circle_marker_948ba4158c48232b088e54f43d827723 = L.circleMarker(
+                [31.102377656726354, 122.19458627357291],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 2}
+            ).addTo(map_d8c508483042ed88fd8758ce8f29b099);
+        
+    
+        var popup_140e66b03c08b83e8f72edbc4f1ae917 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_393a1777985f424074b936061cec4000 = $(`<div id="html_393a1777985f424074b936061cec4000" style="width: 100.0%; height: 100.0%;">                 <div style="width: 200px;">                     <h4>碳源区域 1</h4>                     <p><strong>平均碳源:</strong> 2184.67万吨/天</p>                     <p><strong>工业排放:</strong> 1758.20万吨</p>                     <p><strong>交通排放:</strong> 293.03万吨</p>                     <p><strong>农业排放:</strong> 117.21万吨</p>                 </div>                 </div>`)[0];
+                popup_140e66b03c08b83e8f72edbc4f1ae917.setContent(html_393a1777985f424074b936061cec4000);
+            
+        
+
+        circle_marker_948ba4158c48232b088e54f43d827723.bindPopup(popup_140e66b03c08b83e8f72edbc4f1ae917)
+        ;
+
+        
+    
+    
+            var circle_marker_9efb2d01e49edec9512b0d06b072fb68 = L.circleMarker(
+                [31.094356701284113, 121.12248765079411],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 2}
+            ).addTo(map_d8c508483042ed88fd8758ce8f29b099);
+        
+    
+        var popup_df58492bcfc6a100f5de0497ca99556c = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_c9ba2e89e77d54caf6a21b6ad04dd917 = $(`<div id="html_c9ba2e89e77d54caf6a21b6ad04dd917" style="width: 100.0%; height: 100.0%;">                 <div style="width: 200px;">                     <h4>碳源区域 2</h4>                     <p><strong>平均碳源:</strong> 2184.67万吨/天</p>                     <p><strong>工业排放:</strong> 1758.20万吨</p>                     <p><strong>交通排放:</strong> 293.03万吨</p>                     <p><strong>农业排放:</strong> 117.21万吨</p>                 </div>                 </div>`)[0];
+                popup_df58492bcfc6a100f5de0497ca99556c.setContent(html_c9ba2e89e77d54caf6a21b6ad04dd917);
+            
+        
+
+        circle_marker_9efb2d01e49edec9512b0d06b072fb68.bindPopup(popup_df58492bcfc6a100f5de0497ca99556c)
+        ;
+
+        
+    
+    
+            var circle_marker_d88324c652f3d128af7c40959a1cf192 = L.circleMarker(
+                [30.511473276248303, 122.59872322182869],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 2}
+            ).addTo(map_d8c508483042ed88fd8758ce8f29b099);
+        
+    
+        var popup_762a78440241731497d394d3269baef2 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_3a7b515e1ebed71bb886f5fa0af4867e = $(`<div id="html_3a7b515e1ebed71bb886f5fa0af4867e" style="width: 100.0%; height: 100.0%;">                 <div style="width: 200px;">                     <h4>碳源区域 3</h4>                     <p><strong>平均碳源:</strong> 2184.67万吨/天</p>                     <p><strong>工业排放:</strong> 1758.20万吨</p>                     <p><strong>交通排放:</strong> 293.03万吨</p>                     <p><strong>农业排放:</strong> 117.21万吨</p>                 </div>                 </div>`)[0];
+                popup_762a78440241731497d394d3269baef2.setContent(html_3a7b515e1ebed71bb886f5fa0af4867e);
+            
+        
+
+        circle_marker_d88324c652f3d128af7c40959a1cf192.bindPopup(popup_762a78440241731497d394d3269baef2)
+        ;
+
+        
+    
+    
+            var marker_66ed5df8b6020b41d6527a800c11faa7 = L.marker(
+                [31.7304, 121.9737],
+                {}
+            ).addTo(map_d8c508483042ed88fd8758ce8f29b099);
+        
+    
+            var icon_2374cf5b6b265026ef377a3bcd83190e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "check-circle", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_66ed5df8b6020b41d6527a800c11faa7.setIcon(icon_2374cf5b6b265026ef377a3bcd83190e);
+        
+    
+        var popup_4c913e1e462ea44655fabfda77814b3d = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_faa71bef5ce553807a3af1724f526716 = $(`<div id="html_faa71bef5ce553807a3af1724f526716" style="width: 100.0%; height: 100.0%;">                 <div style="width: 200px;">                     <h4>净碳平衡</h4>                     <p><strong>日期:</strong> 2025-08-21T22:12:36.691137</p>                     <p><strong>净平衡:</strong> 12025.19万吨</p>                     <p><strong>状态:</strong> 碳汇>碳源</p>                     <p><strong>碳汇总量:</strong> 14193.63万吨</p>                     <p><strong>碳源总量:</strong> 2168.44万吨</p>                 </div>                 </div>`)[0];
+                popup_4c913e1e462ea44655fabfda77814b3d.setContent(html_faa71bef5ce553807a3af1724f526716);
+            
+        
+
+        marker_66ed5df8b6020b41d6527a800c11faa7.bindPopup(popup_4c913e1e462ea44655fabfda77814b3d)
+        ;
+
+        
+    
+    
+            var layer_control_b4cce9f6ae4a7e9843a534a42ad733b9_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_41f12cee7cd13c2fde9414557efd4dc7,
+                },
+                overlays :  {
+                    "\u534e\u4e1c\u8fb9\u754c" : geo_json_45a1ca615e6a886ad36c04e94ca514ac,
+                },
+            };
+            let layer_control_b4cce9f6ae4a7e9843a534a42ad733b9 = L.control.layers(
+                layer_control_b4cce9f6ae4a7e9843a534a42ad733b9_layers.base_layers,
+                layer_control_b4cce9f6ae4a7e9843a534a42ad733b9_layers.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_d8c508483042ed88fd8758ce8f29b099);
+
+        
+</script>
+</html>

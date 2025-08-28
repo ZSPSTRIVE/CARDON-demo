@@ -54,7 +54,7 @@ class AnomalyDetector:
         # 确保模型目录存在
         os.makedirs(self.model_dir, exist_ok=True)
     
-    async def initialize_models(self):
+    def initialize_models(self):
         """初始化异常检测模型"""
         try:
             logger.info("开始初始化异常检测模型...")
@@ -104,7 +104,7 @@ class AnomalyDetector:
         """检查模型是否准备就绪"""
         return self.is_initialized and len(self.models) > 0
     
-    async def detect_anomalies(self, industry: IndustryType, time_range: int, 
+    def detect_anomalies(self, industry: IndustryType, time_range: int, 
                               threshold: float = 0.95) -> Dict[str, Any]:
         """检测异常"""
         try:
@@ -505,4 +505,4 @@ class AnomalyDetector:
                 "start": min(anomaly_dates).isoformat(),
                 "end": max(anomaly_dates).isoformat()
             }
-        } 
+        }

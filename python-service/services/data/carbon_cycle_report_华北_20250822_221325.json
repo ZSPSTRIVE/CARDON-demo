@@ -1,0 +1,135 @@
+{
+  "region": "华北",
+  "analysis_date": "2025-08-22T22:13:25.840796",
+  "summary": {
+    "total_days": 2,
+    "average_sink": 10940.947330814797,
+    "average_source": 2300.9249644849233,
+    "net_balance_trend": "improving"
+  },
+  "detailed_data": {
+    "carbon_sink": [
+      {
+        "date": "2025-08-20T22:13:25.826797",
+        "total_sink": 10816.145522895282,
+        "forest_sink": 5672.803595924099,
+        "grassland_sink": 4235.6933516233275,
+        "wetland_sink": 907.648575347856,
+        "seasonal_factor": 1.15,
+        "random_factor": 0.8769551452636289
+      },
+      {
+        "date": "2025-08-21T22:13:25.826797",
+        "total_sink": 11065.749138734314,
+        "forest_sink": 5803.714583252262,
+        "grassland_sink": 4333.44022216169,
+        "wetland_sink": 928.5943333203621,
+        "seasonal_factor": 1.15,
+        "random_factor": 0.89719259258006
+      }
+    ],
+    "carbon_source": [
+      {
+        "date": "2025-08-20T22:13:25.826797",
+        "total_source": 2372.3252170664855,
+        "industrial_source": 1768.192708372536,
+        "transportation_source": 294.698784728756,
+        "agricultural_source": 309.4337239651938,
+        "seasonal_factor": 0.9,
+        "random_factor": 1.091476980476874
+      },
+      {
+        "date": "2025-08-21T22:13:25.826797",
+        "total_source": 2229.5247119033606,
+        "industrial_source": 1661.7575492447409,
+        "transportation_source": 276.95959154079014,
+        "agricultural_source": 290.80757111782964,
+        "seasonal_factor": 0.9,
+        "random_factor": 1.0257762649658895
+      }
+    ],
+    "net_balance": [
+      {
+        "date": "2025-08-20T22:13:25.826797",
+        "net_balance": 8443.820305828796,
+        "sink": 10816.145522895282,
+        "source": 2372.3252170664855,
+        "balance_status": "positive"
+      },
+      {
+        "date": "2025-08-21T22:13:25.826797",
+        "net_balance": 8836.224426830953,
+        "sink": 11065.749138734314,
+        "source": 2229.5247119033606,
+        "balance_status": "positive"
+      }
+    ],
+    "sequestration_potential": {
+      "total": 30600000.0,
+      "forest": 11250000.0,
+      "grassland": 15750000.0,
+      "wetland": 1200000.0,
+      "urban_green": 2400000.0,
+      "measures": [
+        {
+          "name": "森林碳汇提升",
+          "potential": 11250000.0,
+          "cost_per_ton": 150,
+          "total_cost": 1687500000.0,
+          "description": "通过退耕还林、人工造林等措施增加森林覆盖率",
+          "implementation_time": "3-5年",
+          "priority": "高"
+        },
+        {
+          "name": "草地碳汇改善",
+          "potential": 15750000.0,
+          "cost_per_ton": 80,
+          "total_cost": 1260000000.0,
+          "description": "改善草地管理，实施轮牧制度，恢复退化草地",
+          "implementation_time": "2-3年",
+          "priority": "中"
+        },
+        {
+          "name": "湿地保护修复",
+          "potential": 1200000.0,
+          "cost_per_ton": 200,
+          "total_cost": 240000000.0,
+          "description": "保护现有湿地，修复退化湿地生态系统",
+          "implementation_time": "5-8年",
+          "priority": "高"
+        },
+        {
+          "name": "城市绿化提升",
+          "potential": 2400000.0,
+          "cost_per_ton": 300,
+          "total_cost": 720000000.0,
+          "description": "增加城市绿地面积，建设绿色基础设施",
+          "implementation_time": "1-3年",
+          "priority": "中"
+        }
+      ],
+      "recommendations": [
+        "增加森林覆盖率，实施退耕还林政策",
+        "改善草地管理，实施轮牧制度",
+        "保护湿地生态系统，减少开发活动",
+        "加强城市绿化建设，推广绿色建筑"
+      ],
+      "achievable_rate": 0.7,
+      "time_horizon": "5-10年",
+      "total_cost": 3907500000.0,
+      "cost_effectiveness": 127.7,
+      "roi": 0.39
+    },
+    "temporal_trends": {
+      "trend": "improving",
+      "description": "碳平衡状况正在改善",
+      "slope": 392.40412100215536,
+      "mean_balance": 8640.022366329875,
+      "std_balance": 196.20206050107845,
+      "positive_days": 2,
+      "negative_days": 0,
+      "total_days": 2,
+      "improvement_rate": 1.0
+    }
+  }
+}
